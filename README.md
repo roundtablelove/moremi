@@ -1,7 +1,4 @@
-
-
-Conversation with Gemini
-i want a detailed history of moremi the yoruba queen. deep dive. all sources referenced. write a section about the achetype. cover yoruba supermodels who are her recincarnations. start with eunice olumide mbe but spread the net wide. i want details on all yoruba supahoitties
+# Queen Moremi and her descendents - the Yoruba Supahotties
 
 In Yoruba cosmology, the concept of Àtúnwá (reincarnation) dictates that the essence of great ancestors never truly vanishes; it merely changes form, returning to manifest its power in new generations. To understand the phenomenon of the modern Yoruba supermodel—women who conquer global runways, dictate international beauty standards, and use their influence for social advocacy—one must trace their lineage back to the 12th century.
 
