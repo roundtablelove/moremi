@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Queen Moremi Ajasoro & The Yoruba Supahotties</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Oswald:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --gold: #D4AF37;
+      --gold-light: #F2D472;
+      --gold-dark: #9B7A1E;
+      --black: #080604;
+      --near-black: #100D08;
+      --dark: #1A1510;
+      --medium: #26201A;
+      --text: #EAE0CC;
+      --text-muted: #A89070;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--black);
+      color: var(--text);
+      font-family: 'Crimson Text', Georgia, serif;
+      font-size: 19px;
+      line-height: 1.8;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      position: relative;
+      height: 100vh;
+      min-height: 680px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/90/Moremi_statue_at_the_Old_Palace_Of_The_Deji_Of_Akure.jpg');
+      background-size: cover;
+      background-position: center 15%;
+      filter: brightness(0.22) sepia(0.6);
+    }
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to bottom, rgba(8,6,4,0.3) 0%, rgba(8,6,4,0.1) 50%, rgba(8,6,4,0.9) 100%);
+    }
+    .hero-content {
+      position: relative;
+      text-align: center;
+      padding: 40px 24px;
+      max-width: 900px;
+    }
+    .eyebrow {
+      font-family: 'Oswald', sans-serif;
+      font-weight: 300;
+      letter-spacing: 0.5em;
+      text-transform: uppercase;
+      color: var(--gold);
+      font-size: 12px;
+      display: block;
+      margin-bottom: 28px;
+    }
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(46px, 8vw, 108px);
+      font-weight: 900;
+      line-height: 1.0;
+      color: #fff;
+      text-shadow: 0 2px 60px rgba(0,0,0,0.9);
+      margin-bottom: 28px;
+    }
+    .hero h1 em { color: var(--gold); font-style: normal; }
+    .hero-tagline {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(17px, 2.5vw, 22px);
+      font-style: italic;
+      color: var(--text-muted);
+      line-height: 1.6;
+      max-width: 620px;
+      margin: 0 auto;
+    }
+    .adire-band {
+      height: 6px;
+      background: repeating-linear-gradient(90deg,
+        var(--gold-dark) 0,var(--gold-dark) 6px,
+        transparent 6px,transparent 10px,
+        var(--gold) 10px,var(--gold) 14px,
+        transparent 14px,transparent 18px);
+      opacity: 0.7;
+    }
+
+    /* ── LAYOUT ── */
+    .container { max-width: 820px; margin: 0 auto; padding: 0 28px; }
+    .wide { max-width: 1160px; margin: 0 auto; padding: 0 28px; }
+    section { padding: 88px 0; }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(30px, 5vw, 54px);
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.08;
+      margin-bottom: 44px;
+    }
+    h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(20px, 3vw, 30px);
+      font-weight: 700;
+      color: var(--gold-light);
+      margin: 52px 0 18px;
+      line-height: 1.2;
+    }
+    h4 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin: 40px 0 10px;
+    }
+    p { margin-bottom: 22px; }
+    em { color: var(--gold-light); font-style: italic; }
+    strong { color: #fff; font-weight: 600; }
+
+    .divider {
+      border: none;
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--gold-dark), transparent);
+      margin: 56px 0;
+    }
+    .ornament {
+      text-align: center;
+      position: relative;
+      margin: 56px 0;
+      color: var(--gold);
+      font-size: 20px;
+    }
+    .ornament::before, .ornament::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      width: 42%;
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--gold-dark));
+    }
+    .ornament::before { left: 0; }
+    .ornament::after { right: 0; background: linear-gradient(to left, transparent, var(--gold-dark)); }
+
+    blockquote.pull {
+      border-left: 3px solid var(--gold);
+      padding: 18px 32px;
+      margin: 40px 0;
+      background: var(--near-black);
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(19px, 2.5vw, 26px);
+      font-style: italic;
+      color: var(--gold-light);
+      line-height: 1.5;
+    }
+    blockquote.pull cite {
+      display: block;
+      margin-top: 14px;
+      font-size: 13px;
+      font-style: normal;
+      color: var(--text-muted);
+      font-family: 'Oswald', sans-serif;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+    }
+
+    /* ── STATUE GALLERY ── */
+    .statue-section { background: var(--near-black); }
+    .statue-intro { margin-bottom: 48px; }
+    .statue-grid {
+      display: grid;
+      grid-template-columns: 1.3fr 1fr 1fr;
+      grid-template-rows: auto auto;
+      gap: 6px;
+    }
+    .statue-item {
+      position: relative;
+      overflow: hidden;
+      background: var(--dark);
+    }
+    .statue-item.main { grid-row: span 2; aspect-ratio: 2/3; }
+    .statue-item.sub { aspect-ratio: 4/3; }
+    .statue-item img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      display: block;
+      filter: sepia(0.15) contrast(1.1) brightness(0.92);
+      transition: transform 0.6s ease;
+    }
+    .statue-item:hover img { transform: scale(1.04); }
+    .statue-cap {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.88), transparent);
+      padding: 28px 18px 16px;
+      font-family: 'Oswald', sans-serif;
+      font-size: 12px;
+      font-weight: 300;
+      letter-spacing: 0.12em;
+      color: var(--text-muted);
+    }
+    .statue-placeholder {
+      width: 100%; height: 100%;
+      min-height: 220px;
+      display: flex; align-items: center; justify-content: center;
+      flex-direction: column;
+      gap: 12px;
+      background: var(--dark);
+      border: 1px dashed var(--gold-dark);
+      color: var(--text-muted);
+      font-family: 'Oswald', sans-serif;
+      font-size: 12px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 20px;
+    }
+    .statue-placeholder svg { width: 36px; height: 36px; fill: var(--gold-dark); }
+
+    /* ── STATS ── */
+    .stats-band {
+      background: var(--dark);
+      border-top: 1px solid var(--gold-dark);
+      border-bottom: 1px solid var(--gold-dark);
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      divide-color: var(--medium);
+    }
+    .stat-item {
+      padding: 40px 24px;
+      text-align: center;
+      border-right: 1px solid var(--medium);
+    }
+    .stat-item:last-child { border-right: none; }
+    .stat-number {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(36px, 4vw, 58px);
+      font-weight: 900;
+      color: var(--gold);
+      line-height: 1;
+      display: block;
+    }
+    .stat-label {
+      font-family: 'Oswald', sans-serif;
+      font-size: 11px;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-top: 8px;
+      display: block;
+    }
+
+    /* ── ARCHETYPE PILLARS ── */
+    .pillars-section { background: var(--dark); }
+    .pillars {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 3px;
+      margin: 44px 0;
+      background: var(--gold-dark);
+    }
+    .pillar {
+      background: var(--near-black);
+      padding: 40px 28px;
+      text-align: center;
+    }
+    .pillar-yoruba {
+      font-family: 'Playfair Display', serif;
+      font-size: 44px;
+      font-style: italic;
+      color: var(--gold);
+      display: block;
+      margin-bottom: 6px;
+    }
+    .pillar-word {
+      font-family: 'Oswald', sans-serif;
+      font-size: 10px;
+      letter-spacing: 0.4em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+      display: block;
+    }
+    .pillar p { font-size: 16px; color: var(--text-muted); margin: 0; }
+
+    /* ── TIMELINE ── */
+    .timeline { padding-left: 32px; border-left: 1px solid var(--gold-dark); margin: 40px 0; }
+    .tl-item { position: relative; margin-bottom: 36px; }
+    .tl-item::before {
+      content: '';
+      position: absolute;
+      left: -37px; top: 7px;
+      width: 10px; height: 10px;
+      background: var(--gold);
+      border-radius: 50%;
+    }
+    .tl-date {
+      font-family: 'Oswald', sans-serif;
+      font-size: 12px;
+      letter-spacing: 0.35em;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+    .tl-item h4 { margin: 0 0 6px; font-size: 18px; color: var(--text); letter-spacing: 0.05em; }
+    .tl-item p { font-size: 16px; color: var(--text-muted); margin: 0; }
+
+    /* ── MODEL CARDS ── */
+    .models-section { background: var(--near-black); padding: 100px 0; }
+    .models-section > .wide > .eyebrow { display: block; margin-bottom: 16px; }
+
+    .model-card {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 64px 0;
+      background: var(--dark);
+      overflow: hidden;
+    }
+    .model-card.flip { direction: rtl; }
+    .model-card.flip > * { direction: ltr; }
+
+    .mc-media {
+      position: relative;
+      min-height: 520px;
+      background: var(--medium);
+      overflow: hidden;
+    }
+    .mc-number {
+      position: absolute;
+      top: 16px; left: 20px;
+      font-family: 'Playfair Display', serif;
+      font-size: 80px;
+      font-weight: 900;
+      color: rgba(212,175,55,0.12);
+      line-height: 1;
+      z-index: 1;
+      pointer-events: none;
+    }
+    .mc-media .ig-embed-wrapper {
+      width: 100%;
+      min-height: 520px;
+      background: #1a1a1a;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      overflow-y: auto;
+      padding: 0;
+    }
+    .mc-media .ig-embed-wrapper .instagram-media {
+      max-width: 100% !important;
+      min-width: 0 !important;
+      width: 100% !important;
+      margin: 0 !important;
+    }
+
+    /* Instagram profile card fallback */
+    .ig-profile-card {
+      width: 100%;
+      min-height: 520px;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 20px;
+      padding: 32px;
+      text-align: center;
+      text-decoration: none;
+      transition: opacity 0.3s;
+    }
+    .ig-profile-card:hover { opacity: 0.9; }
+    .ig-avatar {
+      width: 90px; height: 90px;
+      border-radius: 50%;
+      background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+      padding: 3px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .ig-avatar-inner {
+      width: 84px; height: 84px;
+      border-radius: 50%;
+      background: var(--dark);
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--gold);
+    }
+    .ig-handle-text {
+      font-family: 'Oswald', sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      color: #fff;
+      letter-spacing: 0.05em;
+    }
+    .ig-follow-btn {
+      background: linear-gradient(45deg, #f09433, #dc2743, #bc1888);
+      color: #fff;
+      border: none;
+      padding: 10px 32px;
+      font-family: 'Oswald', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .ig-followers {
+      font-family: 'Oswald', sans-serif;
+      font-size: 13px;
+      color: rgba(255,255,255,0.5);
+      letter-spacing: 0.15em;
+    }
+
+    .mc-content {
+      padding: 52px 44px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .mc-archetype {
+      font-family: 'Oswald', sans-serif;
+      font-size: 11px;
+      letter-spacing: 0.45em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 12px;
+    }
+    .mc-name {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(26px, 3vw, 38px);
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.1;
+      margin-bottom: 6px;
+    }
+    .mc-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 18px;
+      font-style: italic;
+      color: var(--gold-light);
+      margin-bottom: 24px;
+    }
+    .mc-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-bottom: 24px;
+    }
+    .chip {
+      font-family: 'Oswald', sans-serif;
+      font-size: 10px;
+      font-weight: 300;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      border: 1px solid var(--gold-dark);
+      padding: 4px 12px;
+      background: rgba(212,175,55,0.04);
+    }
+    .mc-bio { font-size: 17px; color: var(--text-muted); line-height: 1.7; margin-bottom: 28px; }
+    .mc-bio strong { color: var(--text); }
+    .mc-bio em { color: var(--gold-light); font-style: italic; }
+    .ig-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      color: var(--text-muted);
+      font-family: 'Oswald', sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+      letter-spacing: 0.15em;
+      border: 1px solid var(--medium);
+      padding: 11px 22px;
+      transition: all 0.3s;
+    }
+    .ig-link:hover {
+      color: var(--gold);
+      border-color: var(--gold-dark);
+      background: rgba(212,175,55,0.05);
+    }
+    .ig-link svg { width: 17px; height: 17px; flex-shrink: 0; }
+
+    /* ── SOURCES ── */
+    .sources-section { background: var(--dark); }
+    .sources-list { list-style: none; counter-reset: src; }
+    .sources-list li {
+      counter-increment: src;
+      position: relative;
+      padding: 20px 0 20px 52px;
+      border-bottom: 1px solid var(--medium);
+      font-size: 16px;
+      color: var(--text-muted);
+    }
+    .sources-list li::before {
+      content: counter(src);
+      position: absolute;
+      left: 0; top: 18px;
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      font-weight: 700;
+      color: var(--gold-dark);
+      line-height: 1;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--black);
+      padding: 48px 0 36px;
+      text-align: center;
+      border-top: 1px solid var(--dark);
+    }
+    footer .yoruba-q {
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      font-style: italic;
+      color: var(--gold);
+      margin-bottom: 8px;
+    }
+    footer p {
+      font-family: 'Oswald', sans-serif;
+      font-size: 12px;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin: 0;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      .statue-grid { grid-template-columns: 1fr 1fr; }
+      .statue-item.main { grid-row: span 1; aspect-ratio: 4/3; }
+      .stats-grid { grid-template-columns: repeat(2, 1fr); }
+      .pillars { grid-template-columns: 1fr; }
+      .model-card, .model-card.flip { grid-template-columns: 1fr; direction: ltr; }
+      .mc-media { min-height: 380px; }
+      .mc-content { padding: 36px 28px; }
+    }
+    @media (max-width: 560px) {
+      .statue-grid { grid-template-columns: 1fr; }
+      .stats-grid { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════
+     HERO
+════════════════════════════════════════════ -->
+<div class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <span class="eyebrow">Ile-Ife · 12th Century to Now</span>
+    <h1>Queen <em>Moremi</em><br>Ajasoro</h1>
+    <p class="hero-tagline">How one woman's sacrifice birthed an archetype that still walks the earth — from the sacred city of the Yoruba to the runways of Paris, Milan, and New York.</p>
+  </div>
+</div>
+<div class="adire-band"></div>
+
+<!-- ═══════════════════════════════════════════
+     PART 0 — BEFORE MOREMI: THE WORLD SHE WALKED INTO
+════════════════════════════════════════════ -->
+<section>
+  <div class="container">
+    <span class="eyebrow">Before Moremi</span>
+    <h2>The World She Walked Into: Ile-Ife &amp; the Oduduwa Dynasty</h2>
+
+    <p>To understand Moremi Ajasoro, you must first understand that she was not a woman of myth. She was a strategic operator inside one of the world's most sophisticated civilizations of her age — a kingdom whose artisans were casting bronze portrait sculptures of such breathtaking psychological realism that a European explorer, Leo Frobenius, encountered them in 1910 and refused to believe Africans had made them, attributing the works instead to the mythical city of Atlantis.</p>
+
+    <p>He was catastrophically wrong. The works were Yoruba. They were Ife.</p>
+
+    <h3>The Creation: Oduduwa and the First Earth</h3>
+
+    <p>In the beginning, according to Yoruba cosmology, <strong>Olodumare</strong> — the Supreme Being, the source of all things — dispatched the divine emissaries called <em>orisha</em> to create the world. Chief among the creation-workers was <strong>Obatala</strong>, who descended from the heavens on a chain of iron, carrying sand in a snail shell and a five-toed chicken. But Obatala was waylaid by palm wine, and Olodumare sent another — <strong>Oduduwa</strong> — to complete the work.</p>
+
+    <p>Oduduwa climbed down the golden chain, poured his sand onto the primordial waters, set the chicken upon it, and the bird scratched and spread the earth in all directions. Where his feet first touched solid ground, <em>Ile-Ife</em> was born: <em>"The place that spread wide."</em> The holiest soil in the Yoruba cosmos. The navel of the world.</p>
+
+    <p>This is not purely theology. The archaeology agrees. Excavations at sites including <strong>Ita Yemoo</strong>, <strong>Obalara's Land</strong>, and <strong>Woye Asiri</strong> within Ile-Ife have yielded <strong>naturalistic bronze and terracotta portrait heads</strong> dated between 1000–1400 CE — the period when Moremi lived. The Ife bronzes demonstrate a mastery of lost-wax casting that would not appear in Europe for another three centuries. They depict human faces with lined, striated skin, parted lips, and eyes of crystalline shell — individuals, not idealized types. Rulers. Priests. Queens.</p>
+
+    <p>These faces belonged to the world Moremi moved through daily.</p>
+
+    <h3>The Oduduwa Dynasty: Ile-Ife as the Source of Crowns</h3>
+
+    <p>From Ile-Ife, Oduduwa fathered the original crowns of the Yoruba world. His children and grandchildren became the founding monarchs of <strong>Oyo, Ketu, Sabe, Popo, Owu, Bini</strong> (the Benin Kingdom), and many others. This lineage made the <strong>Ooni of Ife</strong> — the king of Ile-Ife — the paramount spiritual authority among all Yoruba kings, a position that remains uncontested to this day. No Yoruba king may wear the beaded crown without acknowledging Ife as the source of royal power.</p>
+
+    <p>By the 12th century CE, Ile-Ife was a thriving, complex city-state: an international trade hub whose merchants carried cloth, bronze goods, and sacred objects across West Africa. Its government was structured around an elaborate system of <strong>chiefs, guild leaders, and Ifá diviners</strong> whose oracular function provided a form of civic governance rooted in divine will. This was not a village. This was a civilization worth dying for.</p>
+
+    <h3>Moremi's Birthplace: Offa and the Warrior Tradition</h3>
+
+    <p>Moremi was not born in Ile-Ife. She was born a princess in <strong>Offa</strong>, a kingdom in present-day Kwara State, known throughout the Yoruba world for two things: extraordinary martial courage and singular feminine beauty. The women of Offa were said to embody <em>Ẹwà Àti Agbára</em> — beauty and strength — as a single, unified force rather than opposing qualities. This dual inheritance was precisely what made Moremi the perfect instrument for what was coming.</p>
+
+    <p>Her arrival in Ile-Ife — through a royal marriage alliance that joined the warrior tradition of Offa to the spiritual authority of Ife — was itself a political masterstroke, arranged to shore up the kingdom's defenses during a period of escalating crisis.</p>
+
+    <p>She arrived just in time.</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     STATUE GALLERY
+════════════════════════════════════════════ -->
+<section class="statue-section">
+  <div class="wide">
+    <span class="eyebrow">The Monuments</span>
+    <h2>The Moremi Statue of Liberty — Ile-Ife</h2>
+    <p class="statue-intro" style="color:var(--text-muted);max-width:640px;">In 2016, Ooni Adeyeye Enitan Ogunwusi commissioned a 42-foot bronze-finished monument within his palace grounds — the tallest statue in Nigeria. Moremi stands with a torch raised aloft, facing east toward her birthplace in Offa. Nigeria did not erect a statue of liberty until it gave that title to a queen.</p>
+
+    <div class="statue-grid">
+      <div class="statue-item main">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/9/90/Moremi_statue_at_the_Old_Palace_Of_The_Deji_Of_Akure.jpg"
+          alt="Statue of Queen Moremi at the Old Palace of the Deji of Akure"
+          loading="lazy"
+          onerror="this.parentElement.innerHTML='<div class=\'statue-placeholder\'><svg viewBox=\'0 0 24 24\'><path d=\'M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z\'/></svg><span>Moremi Statue<br>Old Palace · Akure</span></div>'"
+        >
+        <div class="statue-cap">Moremi monument at the Old Palace of the Deji of Akure, Ondo State · Wikimedia Commons</div>
+      </div>
+      <div class="statue-item sub">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Moremi_statue_at_the_Old_Palace_Of_The_Deji_Of_Akure.jpg/400px-Moremi_statue_at_the_Old_Palace_Of_The_Deji_Of_Akure.jpg"
+          alt="Moremi Ajasoro statue detail"
+          loading="lazy"
+          onerror="this.parentElement.innerHTML='<div class=\'statue-placeholder\'><svg viewBox=\'0 0 24 24\'><path d=\'M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z\'/></svg><span>42-ft Statue · Ooni's Palace<br>Ile-Ife, Osun State · 2016</span></div>'"
+          style="filter:sepia(0.3) contrast(1.15) brightness(0.85);"
+        >
+        <div class="statue-cap">Detail — the torch raised toward the heavens</div>
+      </div>
+      <div class="statue-item sub">
+        <div class="statue-placeholder" style="min-height:220px;">
+          <svg viewBox="0 0 24 24"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zm-5 9.18V15l5 2.73 5-2.73v-2.82l-5 2.73-5-2.73z"/></svg>
+          <span style="font-size:11px;line-height:1.6;">
+            The Edi Festival<br>Ile-Ife · Annual Celebration<br>
+            <span style="color:var(--gold);margin-top:6px;display:block;">800+ years unbroken</span>
+          </span>
+        </div>
+        <div class="statue-cap">The Edi Festival — honoring Moremi since the 12th century</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS BAND -->
+<div class="stats-band">
+  <div class="wide">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <span class="stat-number">12th</span>
+        <span class="stat-label">Century — Moremi's era</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">42</span>
+        <span class="stat-label">Feet tall — Nigeria's tallest statue</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">800+</span>
+        <span class="stat-label">Years of Edi Festival</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">1</span>
+        <span class="stat-label">Son sacrificed for a nation</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     PART I — THE EPIC
+════════════════════════════════════════════ -->
+<section>
+  <div class="container">
+    <span class="eyebrow">Part I</span>
+    <h2>The Epic of Queen Moremi Ajasoro</h2>
+
+    <h3>The Terror of the Ugbo — A Nation Paralyzed</h3>
+
+    <p>The threat did not arrive all at once. It accumulated over years — perhaps a full generation — of raids that grew bolder and more devastating with each cycle. The <em>Ugbo</em> (the "Forest People," ancestors of the present-day Ugbo-Ilaje of Ondo State) had developed a form of warfare so psychologically sophisticated it amounted to theater: a production designed not merely to defeat the Ife military but to annihilate its will to fight entirely.</p>
+
+    <p>They moved at dusk and dawn — the liminal hours, the time between worlds, when the living and the dead share roads. They emerged from the forest in complete silence before erupting in coordinated formations, their bodies covered entirely in <em>ekan</em> dried raffia palm leaves and carved spirit-masks. No skin showed. No human face was visible. They appeared not as an army but as an arrival — a judgment from the forest gods, descending on the holy city in wrath.</p>
+
+    <p>The psychological effect was total. Ife warriors who had been trained to fight men found themselves paralyzed before what appeared to be spirits. The city's markets — the economic engine of a major West African civilization — were ransacked repeatedly. Young men and women were dragged away into slavery. The holy city, the birthplace of Yoruba civilization, knelt in humiliation before a force its bravest soldiers could not bring themselves to engage.</p>
+
+    <p>It was in this climate of collective despair that Moremi made her decision.</p>
+
+    <h3>The Covenant with Esimirin</h3>
+
+    <p>In Yoruba cosmology, major rivers are not geographical features — they are living entities, <em>orisha</em> with personalities, appetites, and power that can bend the course of human events. The <strong>Esimirin River</strong> was among the most formidable of these divine presences. Its worship predated the founding of Ile-Ife itself.</p>
+
+    <p>Moremi's visit to Esimirin was not casual prayer. It was the initiation of a formal contractual relationship with a deity whose enforcement mechanisms operated across lifetimes. In Yoruba spiritual law, an <em>ìbòwọ̀</em> — a sacred vow made to an orisha — carried the weight of divine law. Breaking it did not merely bring misfortune to the individual. It could devastate an entire lineage across generations.</p>
+
+    <p>When Moremi pledged her "greatest, most prized possession" as payment for divine assistance, she was accepting an open-ended divine debt. She did not know what the river would ultimately demand. She accepted the terms anyway. This is the first act of Moremi's genius — not the espionage, not the escape, not the battle strategy — but this. The willingness to write a blank check to a god.</p>
+
+    <h3>The Long Game: Deep Cover in the Ugbo Court</h3>
+
+    <p>Standard retellings compress Moremi's captivity into a brief episode. The oral historians and scholars suggest otherwise. The intelligence she gathered — the specific construction techniques of the raffia armor, the battle formations, the spiritual rituals performed before raids, the command structure of the Ugbo military — required <em>sustained, long-term immersion</em> in the enemy court.</p>
+
+    <p>She was not a visitor. She was a queen. And to maintain that cover required a degree of psychological discipline and intellectual endurance that has few parallels in any tradition of espionage, ancient or modern. For months — perhaps years — Moremi:</p>
+
+    <p>— Learned the Ugbo language with sufficient fluency to pass as a willing consort<br>
+    — Cultivated the absolute trust of the Ugbo king and his inner circle<br>
+    — Attended military councils where the Ugbo planned future raids on her own people<br>
+    — Observed the construction and maintenance of the raffia armor — and noted its fatal vulnerability to fire<br>
+    — Gathered intelligence on the spiritual rituals that preceded battle, so Ile-Ife could develop counter-measures<br>
+    — Maintained her cover with no backup, no extraction plan, no guarantee of return</p>
+
+    <p>She was the most dangerous kind of operative: one who has nothing to lose and everything to gain, operating inside the house of the enemy with a smile on her face.</p>
+
+    <blockquote class="pull">
+      "Moremi wept as the sky weeps in the season of storms — all at once, and with great force, and stopping as suddenly, for there was work yet to be done."
+      <cite>Oriki Moremi — Yoruba Praise Poetry, oral tradition</cite>
+    </blockquote>
+
+    <h3>The Liberation of Ile-Ife</h3>
+
+    <p>When Moremi finally escaped the Ugbo court and made the treacherous journey home, she brought back not just intelligence but a complete military doctrine. The Ife army, following her precise instructions, prepared vast quantities of <em>Oguso</em> — torches fashioned from palm kernel fiber — and waited.</p>
+
+    <p>When the Ugbo next descended at dusk in their terror-formation, the Ife fighters emerged from concealment with lit torches. The result was immediate and catastrophic for the Ugbo: dried raffia is among the most flammable materials in the natural world. The "invincible spirits" became human torches. The army that had terrorized Ile-Ife for a generation scattered screaming into the bush.</p>
+
+    <p>The psychological inversion was complete. The Ugbo never raided Ile-Ife again. What had been presented as supernatural judgment was revealed in one night's fire to be ordinary men with a clever costume. The myth collapsed. The terror collapsed with it.</p>
+
+    <h3>The Sacrifice: Oluorogbo</h3>
+
+    <p>She had known from the moment she made the vow that victory would cost her something. But the Esimirin River's priesthood arrived with a demand that emptied the triumph of all its joy.</p>
+
+    <p>The goddess rejected cattle. She rejected gold. She rejected land. She rejected every substitute Moremi offered in increasing desperation. The debt was specific. The goddess required <strong>Oluorogbo</strong> — Moremi's only son, her singular child, the extension of her blood into the future.</p>
+
+    <p>Moremi paid.</p>
+
+    <p>The people of Ile-Ife, witnessing a sacrifice they could not comprehend — a mother giving her child to the river after saving the entire nation — made a collective covenant that stands to this day: <em>We are all your children now. Every person in Ile-Ife, every Yoruba person who draws breath, is Oluorogbo's replacement. We will be your children in perpetuity.</em></p>
+
+    <p>It is, perhaps, the most beautiful act of collective grief in African history.</p>
+
+    <h3>The Edi Festival: 800 Years of Memory, Unbroken</h3>
+
+    <p>The annual <strong>Edi Festival</strong> of Ile-Ife — celebrated every year in the lunar calendar — is among the oldest continuously observed commemorations in West Africa. Its central ritual involves the symbolic re-enactment of Moremi's capture and liberation, presided over by the Ooni of Ife, who stands as proxy for the nation's pledge to be Moremi's eternal children.</p>
+
+    <p>During Edi, designated chanters recite the full <em>Oriki Moremi</em> — the praise poetry that encodes her history in metrical Yoruba verse — a living archive that has transmitted her story across 30+ generations without writing. The festival closes with communal offerings to the Esimirin River, renewing the debt of gratitude that the river is owed for enabling the victory.</p>
+
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-date">c. 1100–1200 CE</div>
+        <h4>The Age of Moremi</h4>
+        <p>Ile-Ife at its artistic and political zenith. The bronze-casters of Ife produce their masterworks. Moremi serves as queen and saves the kingdom.</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">c. 1200 CE — Present</div>
+        <h4>The Edi Festival Established</h4>
+        <p>Annual commemoration begins immediately after Moremi's death. Never interrupted. 800+ years and counting.</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">1921</div>
+        <h4>Rev. Samuel Johnson Documents the Epic</h4>
+        <p><em>The History of the Yorubas</em> published posthumously — the first major English-language record of Moremi's story as preserved in oral tradition.</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">1966</div>
+        <h4>Duro Ladipo's <em>Moremi</em> Opera</h4>
+        <p>The legendary Yoruba playwright stages the full epic as a theatrical work, cementing her story in modern Nigerian cultural consciousness.</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">2016</div>
+        <h4>The Statue of Liberty — Ile-Ife</h4>
+        <p>Ooni Adeyeye Enitan Ogunwusi unveils the 42-foot Queen Moremi Ajasoro Statue of Liberty — Nigeria's tallest — in the Ooni's palace grounds. She holds a torch aloft, facing east toward Offa.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     PART II — THE ARCHETYPE
+════════════════════════════════════════════ -->
+<section class="pillars-section">
+  <div class="container">
+    <span class="eyebrow">Part II</span>
+    <h2>The Moremi Archetype: The Strategic Matriarch</h2>
+
+    <p>In mythological analysis, what Moremi represents is specific and definable: the <strong>Savior-Spy</strong> — a distinct archetype that does not exist in Western canonical tradition in the same form. Unlike Achilles, who charges the enemy line with brute strength, or Odysseus, who deceives with cunning alone, Moremi weaponizes a third asset: <em>aesthetics</em>. Her beauty was not vanity. It was a key — the specific, irreplaceable instrument needed to open a particular lock.</p>
+
+    <p>The Moremi Archetype rests on three Yoruba pillars:</p>
+
+    <div class="pillars">
+      <div class="pillar">
+        <span class="pillar-yoruba">Ẹwà</span>
+        <span class="pillar-word">Beauty as Tactic</span>
+        <p>Not decoration. Not gift. The tool that penetrated where weapons could not. The enemy's court opened to her because of it. Beauty is not passive — it is the weapon that precedes all others.</p>
+      </div>
+      <div class="pillar">
+        <span class="pillar-yoruba">Ọgbọ́n</span>
+        <span class="pillar-word">Intelligence &amp; Strategy</span>
+        <p>The ability to observe, retain, analyze, and extract intelligence under extreme psychological pressure — for months or years — without breaking cover. The operating system beneath the beautiful surface.</p>
+      </div>
+      <div class="pillar">
+        <span class="pillar-yoruba">Àgbàrà</span>
+        <span class="pillar-word">Spiritual Power</span>
+        <p>The willingness to enter a covenant with forces beyond human comprehension and honor that covenant at ultimate personal cost. The dimension of Moremi that cannot be reduced to tactics.</p>
+      </div>
+    </div>
+
+    <p>The archetype is explicitly <em>anti-damsel</em>. Moremi does not wait to be rescued. She engineers her own capture, endures captivity as a tool of victory, rescues an entire civilization, and then pays a debt that destroys her personally. At no point is she passive. At no point does she require a male savior. The Yoruba tradition produced this archetype in the 12th century, encoding it into their foundational national mythology: <em>the most dangerous person in the room is the most beautiful woman in it.</em></p>
+
+    <p>The modern Yoruba supermodels — operating in the hyper-competitive, historically exclusionary Western fashion industry — are this archetype in contemporary form. They enter hostile domains via aesthetic allure. They dominate those spaces through strategy and discipline. And they use their platforms to advance the cause of their people. The battlefields have changed. The archetype has not.</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     PART III — THE MODERN REINCARNATIONS
+════════════════════════════════════════════ -->
+<section class="models-section">
+  <div class="wide">
+    <span class="eyebrow">Part III</span>
+    <h2>The Modern Reincarnations — The Yoruba Supahotties</h2>
+    <p style="color:var(--text-muted);max-width:660px;margin-bottom:60px;">The battlefields are no longer the forests of Ugbo. They are the castings of Paris, the campaigns of Milan, the screens of Hollywood and Nollywood. These women carry Moremi's torch in stilettos.</p>
+
+    <!-- 1. EUNICE OLUMIDE -->
+    <div class="model-card">
+      <div class="mc-media">
+        <span class="mc-number">01</span>
+        <a href="https://www.instagram.com/eunice.olumide/" target="_blank" rel="noopener" class="ig-profile-card">
+          <div class="ig-avatar"><div class="ig-avatar-inner">EO</div></div>
+          <div class="ig-handle-text">@eunice.olumide</div>
+          <div class="ig-followers">Eunice Olumide MBE · Model · Author · Activist</div>
+          <div class="ig-follow-btn">Follow on Instagram</div>
+        </a>
+      </div>
+      <div class="mc-content">
+        <div class="mc-archetype">The Intellectual Pioneer</div>
+        <div class="mc-name">Eunice Olumide MBE</div>
+        <div class="mc-title">"God has come" — Olumide</div>
+        <div class="mc-chips">
+          <span class="chip">Prada</span><span class="chip">Vivienne Westwood</span>
+          <span class="chip">Jean Paul Gaultier</span><span class="chip">Alexander Wang</span>
+          <span class="chip">MBE · 2017</span>
+        </div>
+        <p class="mc-bio">The Scottish-Nigerian model whose Yoruba surname itself announces her purpose. Scouted at 15 in Glasgow, she breached the highest echelons of European fashion — then used her platform as a Trojan horse for social justice, bringing the <strong>Windrush Generation deportation scandal</strong> into London Fashion Week. She holds an <strong>MA in Metaphysics from the University of Pennsylvania</strong>. In 2017, Queen Elizabeth II awarded her an MBE for contributions to broadcasting, the arts, and charity. <em>Pure Moremi: she entered the establishment via beauty and burned it with knowledge.</em></p>
+        <a href="https://www.instagram.com/eunice.olumide/" target="_blank" rel="noopener" class="ig-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          @eunice.olumide
+        </a>
+      </div>
+    </div>
+
+    <!-- 2. MAYOWA NICHOLAS -->
+    <div class="model-card flip">
+      <div class="mc-media">
+        <span class="mc-number">02</span>
+        <a href="https://www.instagram.com/mayowanicholas/" target="_blank" rel="noopener" class="ig-profile-card">
+          <div class="ig-avatar"><div class="ig-avatar-inner">MN</div></div>
+          <div class="ig-handle-text">@mayowanicholas</div>
+          <div class="ig-followers">Mayowa Nicholas · Supermodel · Lagos-born Global Force</div>
+          <div class="ig-follow-btn">Follow on Instagram</div>
+        </a>
+      </div>
+      <div class="mc-content">
+        <div class="mc-archetype">The Global Conqueror</div>
+        <div class="mc-name">Mayowa Nicholas</div>
+        <div class="mc-title">The Unstoppable Force</div>
+        <div class="mc-chips">
+          <span class="chip">Dolce &amp; Gabbana</span><span class="chip">Saint Laurent</span>
+          <span class="chip">Calvin Klein</span><span class="chip">Models.com Top 50</span>
+          <span class="chip">Elite Model Look Nigeria 2014</span>
+        </div>
+        <p class="mc-bio">If Moremi conquered the Ugbo king, Mayowa Nicholas conquered the <strong>titans of European luxury fashion</strong>. Born in Lagos, she won Elite Model Look Nigeria in 2014 and became the <strong>first Nigerian model ever to star in campaigns for Dolce &amp; Gabbana, Saint Laurent, and Calvin Klein simultaneously</strong>. Consistently ranked on Models.com's prestigious Top 50, Mayowa's pillowy lips, geometric cheekbones, and commanding runway walk forced the global luxury market to bow to the Yoruba standard of beauty — on its own terms, without compromise.</p>
+        <a href="https://www.instagram.com/mayowanicholas/" target="_blank" rel="noopener" class="ig-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          @mayowanicholas
+        </a>
+      </div>
+    </div>
+
+    <!-- 3. ENIOLA ABIORO -->
+    <div class="model-card">
+      <div class="mc-media">
+        <span class="mc-number">03</span>
+        <a href="https://www.instagram.com/eniolaabioro/" target="_blank" rel="noopener" class="ig-profile-card" style="background:linear-gradient(135deg,#2d1b1b 0%,#3d2020 50%,#1a0d0d 100%);">
+          <div class="ig-avatar"><div class="ig-avatar-inner">EA</div></div>
+          <div class="ig-handle-text">@eniolaabioro</div>
+          <div class="ig-followers">Eniola Abioro · First Nigerian Prada Exclusive</div>
+          <div class="ig-follow-btn">Follow on Instagram</div>
+        </a>
+      </div>
+      <div class="mc-content">
+        <div class="mc-archetype">The Nurturer Turned Prada Muse</div>
+        <div class="mc-name">Eniola Abioro</div>
+        <div class="mc-title">"A wealthy, influential one"</div>
+        <div class="mc-chips">
+          <span class="chip">Prada Exclusive 2018</span><span class="chip">Versace</span>
+          <span class="chip">Off-White</span><span class="chip">Miu Miu</span><span class="chip">Fenty Beauty</span>
+        </div>
+        <p class="mc-bio">The Moremi archetype involves a pivot from domestic life into a high-stakes arena. Before the runways, Eniola Abioro — whose name means <em>"a wealthy, influential person"</em> — was a <strong>kindergarten teacher at Grace Academy in Lagos</strong>. Discovered on the streets by a local agency, she traded the classroom for the catwalk and immediately made history in 2018 as the <strong>first Nigerian model to walk exclusively for Prada</strong>. She went on to command the runways of Versace, Off-White, Miu Miu, and Fenty Beauty. <em>From nurturing Yoruba children to commanding the world's most exclusive stages.</em></p>
+        <a href="https://www.instagram.com/eniolaabioro/" target="_blank" rel="noopener" class="ig-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          @eniolaabioro
+        </a>
+      </div>
+    </div>
+
+    <!-- 4. ADEOLA ARIYO -->
+    <div class="model-card flip">
+      <div class="mc-media">
+        <span class="mc-number">04</span>
+        <div style="position:relative;width:100%;height:100%;min-height:520px;">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Adeola_Ariyo_with_Folu_Storms_on_NdaniTV_in_S_Africa.png"
+            alt="Adeola Ariyo" style="width:100%;height:100%;min-height:520px;object-fit:cover;display:block;filter:contrast(1.05);"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <a href="https://www.instagram.com/adeolaariyo/" target="_blank" rel="noopener" class="ig-profile-card" style="display:none;position:absolute;inset:0;">
+            <div class="ig-avatar"><div class="ig-avatar-inner">AA</div></div>
+            <div class="ig-handle-text">@adeolaariyo</div>
+            <div class="ig-followers">Adeola Ariyo · First African Elizabeth Arden Ambassador</div>
+            <div class="ig-follow-btn">Follow on Instagram</div>
+          </a>
+        </div>
+      </div>
+      <div class="mc-content">
+        <div class="mc-archetype">The Barrier Breaker</div>
+        <div class="mc-name">Adeola Ariyo</div>
+        <div class="mc-title">The Ambassador</div>
+        <div class="mc-chips">
+          <span class="chip">Elizabeth Arden — First African Ambassador</span>
+          <span class="chip">London Fashion Week Age 13</span>
+        </div>
+        <p class="mc-bio">Born in Lagos to a Yoruba father and Ghanaian-Nigerian mother, Adeola Ariyo walked her first London Fashion Week at age <strong>13</strong>. In 2014, she achieved a milestone that no African woman had before: becoming the <strong>first-ever African brand ambassador for Elizabeth Arden</strong>. Just as Moremi infiltrated a space that historically excluded her people and embedded Yoruba presence within it, Adeola walked into the corporate global cosmetics industry and ensured that dark-skinned Yoruba aesthetics were permanently written into its commercial language.</p>
+        <a href="https://www.instagram.com/adeolaariyo/" target="_blank" rel="noopener" class="ig-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          @adeolaariyo
+        </a>
+      </div>
+    </div>
+
+    <!-- 5. BETTY ADEWOLE -->
+    <div class="model-card">
+      <div class="mc-media">
+        <span class="mc-number">05</span>
+        <a href="https://www.instagram.com/bettyadewole/" target="_blank" rel="noopener" class="ig-profile-card" style="background:linear-gradient(135deg,#1a1a0d 0%,#2d2d0d 50%,#0d1a0d 100%);">
+          <div class="ig-avatar"><div class="ig-avatar-inner">BA</div></div>
+          <div class="ig-handle-text">@bettyadewole</div>
+          <div class="ig-followers">Betty Adewole · Tom Ford Face · The Golden Touch</div>
+          <div class="ig-follow-btn">Follow on Instagram</div>
+        </a>
+      </div>
+      <div class="mc-content">
+        <div class="mc-archetype">The Sultry Strategist</div>
+        <div class="mc-name">Betty Adewole</div>
+        <div class="mc-title">The Commander</div>
+        <div class="mc-chips">
+          <span class="chip">Tom Ford Beauty SS 2014</span>
+          <span class="chip">"The Golden Touch"</span>
+        </div>
+        <p class="mc-bio">British-Yoruba Betty Adewole possesses a bone structure so architectural and a gaze so commanding that <strong>Tom Ford</strong> personally selected her as the face of his coveted Spring/Summer Beauty campaigns. Dubbed <em>"The Golden Touch"</em> by fashion media, her look is simultaneously sultry and intimidating — a combination of warmth and danger that the fashion industry has rarely seen in one face. Betty does not ask for space in the luxury market. She simply arrives and the room reorganizes itself around her.</p>
+        <a href="https://www.instagram.com/bettyadewole/" target="_blank" rel="noopener" class="ig-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          @bettyadewole
+        </a>
+      </div>
+    </div>
+
+    <!-- 6. TOLULA ADEYEMI -->
+    <div class="model-card flip">
+      <div class="mc-media">
+        <span class="mc-number">06</span>
+        <a href="https://www.instagram.com/tolulaadeyemi/" target="_blank" rel="noopener" class="ig-profile-card" style="background:linear-gradient(135deg,#1a0d2e 0%,#2e1a3d 50%,#0d0a1a 100%);">
+          <div class="ig-avatar"><div class="ig-avatar-inner">TA</div></div>
+          <div class="ig-handle-text">@tolulaadeyemi</div>
+          <div class="ig-followers">Tolula Adeyemi · Model · DJ · Actress · "The Crown Fits Me"</div>
+          <div class="ig-follow-btn">Follow on Instagram</div>
+        </a>
+      </div>
+      <div class="mc-content">
+        <div class="mc-archetype">The Avant-Garde Queen</div>
+        <div class="mc-name">Tolula Adeyemi</div>
+        <div class="mc-title">"The Crown Fits Me" — Adeyemi</div>
+        <div class="mc-chips">
+          <span class="chip">Vivienne Westwood Muse</span><span class="chip">DJ</span>
+          <span class="chip">Actress</span><span class="chip">Last Chance Harvey</span>
+        </div>
+        <p class="mc-bio">Her surname, <em>Adeyemi</em>, announces her identity: <em>"the crown fits me."</em> A true renaissance Yoruba woman — model, DJ, actress, and the defining London <em>"It girl"</em> of her era. She became the foremost muse of the legendary <strong>Vivienne Westwood</strong>, and appeared opposite Dustin Hoffman in <em>Last Chance Harvey</em>. But it is her avant-garde, boundary-demolishing personal style — rooted in Yoruba textile heritage and global high fashion simultaneously — that defines her as a genuine creative disruptor, not merely a beautiful face.</p>
+        <a href="https://www.instagram.com/tolulaadeyemi/" target="_blank" rel="noopener" class="ig-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          @tolulaadeyemi
+        </a>
+      </div>
+    </div>
+
+    <!-- 7. OLAJUMOKE -->
+    <div class="model-card">
+      <div class="mc-media">
+        <span class="mc-number">07</span>
+        <div style="position:relative;width:100%;height:100%;min-height:520px;">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/OlajumokegoestoPoise.jpg"
+            alt="Olajumoke Orisaguna" style="width:100%;height:100%;min-height:520px;object-fit:cover;object-position:top;display:block;"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <a href="https://www.instagram.com/olajumokeorisaguna/" target="_blank" rel="noopener" class="ig-profile-card" style="display:none;position:absolute;inset:0;">
+            <div class="ig-avatar"><div class="ig-avatar-inner">OO</div></div>
+            <div class="ig-handle-text">@olajumokeorisaguna</div>
+            <div class="ig-followers">Olajumoke Orisaguna · The Bread Seller Who Became a Star</div>
+            <div class="ig-follow-btn">Follow on Instagram</div>
+          </a>
+        </div>
+      </div>
+      <div class="mc-content">
+        <div class="mc-archetype">The Serendipitous Siren</div>
+        <div class="mc-name">Olajumoke Orisaguna</div>
+        <div class="mc-title">The Folklore</div>
+        <div class="mc-chips">
+          <span class="chip">TY Bello Discovery 2016</span>
+          <span class="chip">Tinie Tempah Shoot</span>
+          <span class="chip">Viral Overnight</span>
+        </div>
+        <p class="mc-bio">No story on this list is as pure as Olajumoke's. In 2016, she was <strong>hawking bread on the streets of Lagos</strong> when she accidentally stepped into a photoshoot featuring British rapper Tinie Tempah, shot by acclaimed photographer TY Bello. Her raw, undeniable presence captured the camera instantly. The photograph went viral across Africa and the world, launching her from the street into high fashion in a matter of days. <em>She didn't find the camera. The camera found her.</em> She represents the truth at the heart of this entire story: Yoruba beauty cannot be hidden, even in a bread basket.</p>
+        <a href="https://www.instagram.com/olajumokeorisaguna/" target="_blank" rel="noopener" class="ig-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          @olajumokeorisaguna
+        </a>
+      </div>
+    </div>
+
+    <!-- 8. ZAINAB BALOGUN -->
+    <div class="model-card flip">
+      <div class="mc-media">
+        <span class="mc-number">08</span>
+        <div style="position:relative;width:100%;height:100%;min-height:520px;">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Zainab_Balogun_Headshot.jpg"
+            alt="Zainab Balogun" style="width:100%;height:100%;min-height:520px;object-fit:cover;object-position:top;display:block;"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <a href="https://www.instagram.com/zainabbalogun/" target="_blank" rel="noopener" class="ig-profile-card" style="display:none;position:absolute;inset:0;">
+            <div class="ig-avatar"><div class="ig-avatar-inner">ZB</div></div>
+            <div class="ig-handle-text">@zainabbalogun</div>
+            <div class="ig-followers">Zainab Balogun · Model → Media Mogul → Nollywood Star</div>
+            <div class="ig-follow-btn">Follow on Instagram</div>
+          </a>
+        </div>
+      </div>
+      <div class="mc-content">
+        <div class="mc-archetype">The Return of the Conqueror</div>
+        <div class="mc-name">Zainab Balogun</div>
+        <div class="mc-title">The Multi-Hyphenate Mogul</div>
+        <div class="mc-chips">
+          <span class="chip">Scouted London Age 16</span>
+          <span class="chip">The Royal Hibiscus Hotel</span>
+          <span class="chip">TV Presenter</span><span class="chip">Media Executive</span>
+        </div>
+        <p class="mc-bio">Scouted in London at 16, Zainab used her modeling platform as a launchpad into presenting, acting, and media production. Then she made the distinctly Moremi move: she <em>came home</em>. Returning to Nigeria to star in acclaimed productions including <em>The Royal Hibiscus Hotel</em> and <em>God Calling</em>, Zainab embodies the archetype's final act — <strong>using everything won abroad to elevate the story of the homeland</strong>. She is proof that the crown does not require foreign validation to be real.</p>
+        <a href="https://www.instagram.com/zainabbalogun/" target="_blank" rel="noopener" class="ig-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          @zainabbalogun
+        </a>
+      </div>
+    </div>
+
+    <!-- 9. SHARON OOJA -->
+    <div class="model-card">
+      <div class="mc-media">
+        <span class="mc-number">09</span>
+        <a href="https://www.instagram.com/sharonooja/" target="_blank" rel="noopener" class="ig-profile-card" style="background:linear-gradient(135deg,#1a0d0d 0%,#3d1010 50%,#2a0808 100%);">
+          <div class="ig-avatar"><div class="ig-avatar-inner">SO</div></div>
+          <div class="ig-handle-text">@sharonooja</div>
+          <div class="ig-followers">Sharon Ooja Egbe · 3M+ Followers · Netflix Star</div>
+          <div class="ig-follow-btn">Follow on Instagram</div>
+        </a>
+      </div>
+      <div class="mc-content">
+        <div class="mc-archetype">The Screen Queen</div>
+        <div class="mc-name">Sharon Ooja Egbe</div>
+        <div class="mc-title">Nollywood's Defining Face</div>
+        <div class="mc-chips">
+          <span class="chip">Shanty Town · Netflix</span><span class="chip">Sugar Rush</span>
+          <span class="chip">3M+ Instagram</span><span class="chip">Owanbe Queen</span>
+        </div>
+        <p class="mc-bio">If Moremi's beauty was her weapon of infiltration, Sharon Ooja's is her arsenal, her battlefield, and her victory flag simultaneously. With over <strong>3 million Instagram followers</strong>, Sharon is the defining face of modern Yoruba femininity in popular culture. Her role in Netflix's <em>Shanty Town</em> brought her global reach. But it is her fashion — the way she wears Yoruba <em>aso-oke</em>, Ankara, and European luxury as a single unified statement — that declares the Moremi principle: <em>beauty without apology, culture without compromise.</em></p>
+        <a href="https://www.instagram.com/sharonooja/" target="_blank" rel="noopener" class="ig-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          @sharonooja
+        </a>
+      </div>
+    </div>
+
+    <!-- 10. TOKE MAKINWA -->
+    <div class="model-card flip">
+      <div class="mc-media">
+        <span class="mc-number">10</span>
+        <a href="https://www.instagram.com/tokemakinwa/" target="_blank" rel="noopener" class="ig-profile-card" style="background:linear-gradient(135deg,#0d1a2e 0%,#0d2240 50%,#081428 100%);">
+          <div class="ig-avatar"><div class="ig-avatar-inner">TM</div></div>
+          <div class="ig-handle-text">@tokemakinwa</div>
+          <div class="ig-followers">Toke Makinwa · Author · Media Mogul · 2.5M+ Followers</div>
+          <div class="ig-follow-btn">Follow on Instagram</div>
+        </a>
+      </div>
+      <div class="mc-content">
+        <div class="mc-archetype">The Voice of a Generation</div>
+        <div class="mc-name">Toke Makinwa</div>
+        <div class="mc-title">The Author-Media Mogul</div>
+        <div class="mc-chips">
+          <span class="chip">On Becoming — Bestseller</span>
+          <span class="chip">TM Fantasy — Beauty Brand</span>
+          <span class="chip">2.5M+ Instagram</span><span class="chip">TV Host</span>
+        </div>
+        <p class="mc-bio">Moremi was not merely beautiful — she was the most articulate, most strategically intelligent person in the room. Toke Makinwa is that woman in 2024. A Yoruba media personality, author, and beauty entrepreneur with over <strong>2.5 million Instagram followers</strong>, Toke's bestselling memoir <em>On Becoming</em> is a document of radical self-reclamation that resonates globally. Her beauty brand <strong>TM Fantasy</strong> represents the next evolution of the archetype: using visibility not just to infiltrate markets but to <em>own</em> them.</p>
+        <a href="https://www.instagram.com/tokemakinwa/" target="_blank" rel="noopener" class="ig-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          @tokemakinwa
+        </a>
+      </div>
+    </div>
+
+    <!-- 11. TIWA SAVAGE -->
+    <div class="model-card">
+      <div class="mc-media">
+        <span class="mc-number">11</span>
+        <a href="https://www.instagram.com/tiwasavage/" target="_blank" rel="noopener" class="ig-profile-card" style="background:linear-gradient(135deg,#1a1000 0%,#3d2800 50%,#1a0d00 100%);">
+          <div class="ig-avatar"><div class="ig-avatar-inner">TS</div></div>
+          <div class="ig-handle-text">@tiwasavage</div>
+          <div class="ig-followers">Tiwa Savage · 15M+ Followers · Africa's Queen of Afrobeats</div>
+          <div class="ig-follow-btn">Follow on Instagram</div>
+        </a>
+      </div>
+      <div class="mc-content">
+        <div class="mc-archetype">The Global Sonic Force</div>
+        <div class="mc-name">Tiwa Savage</div>
+        <div class="mc-title">Africa's Undisputed Queen</div>
+        <div class="mc-chips">
+          <span class="chip">15M+ Instagram</span><span class="chip">Universal Music</span>
+          <span class="chip">Pepsi Endorsement</span><span class="chip">BET Awards</span>
+          <span class="chip">Apple Music Africa's First</span>
+        </div>
+        <p class="mc-bio">Born Tiwatope Savage in Lagos, raised between Lagos and London, Tiwa Savage executed the most complete version of the Moremi playbook at global scale. She studied music at the <strong>Berklee College of Music</strong> in Boston, paid her dues as a backing vocalist in London, then returned to Nigeria and rewrote African pop music. With over <strong>15 million Instagram followers</strong>, a deal with Universal Music, and the first Apple Music Africa feature, Tiwa didn't merely enter the Western music industry — she forced it to turn and face Africa. <em>This is what Ẹwà, Ọgbọ́n, and Àgbàrà look like with a microphone.</em></p>
+        <a href="https://www.instagram.com/tiwasavage/" target="_blank" rel="noopener" class="ig-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          @tiwasavage
+        </a>
+      </div>
+    </div>
+
+    <!-- 12. ADUNOLA -->
+    <div class="model-card flip">
+      <div class="mc-media">
+        <span class="mc-number">12</span>
+        <a href="https://www.instagram.com/adunola/" target="_blank" rel="noopener" class="ig-profile-card" style="background:linear-gradient(135deg,#001a0d 0%,#002d1a 50%,#001a0a 100%);">
+          <div class="ig-avatar"><div class="ig-avatar-inner">AD</div></div>
+          <div class="ig-handle-text">@adunola</div>
+          <div class="ig-followers">Adunola · Lagos-born · Paris Runways · Next Generation</div>
+          <div class="ig-follow-btn">Follow on Instagram</div>
+        </a>
+      </div>
+      <div class="mc-content">
+        <div class="mc-archetype">The Next Generation</div>
+        <div class="mc-name">Adunola</div>
+        <div class="mc-title">Lagos to the Parisian Runway</div>
+        <div class="mc-chips">
+          <span class="chip">Valentino</span><span class="chip">D&amp;G International</span>
+          <span class="chip">Paris Catwalks</span><span class="chip">Rising Force</span>
+        </div>
+        <p class="mc-bio">Adunola represents the newest wave — the generation that does not need to fight for a seat at the table because Eunice and Mayowa and Eniola already kicked the door open. She walked directly onto the Paris catwalks for <strong>Valentino and Dolce &amp; Gabbana</strong> international campaigns, bringing a rawness and directness to her look that reads as undeniable confidence rather than ambition. She is the proof that the archetype is self-replicating: each generation of Yoruba women at the highest levels creates the conditions for the next.</p>
+        <a href="https://www.instagram.com/adunola/" target="_blank" rel="noopener" class="ig-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          @adunola
+        </a>
+      </div>
+    </div>
+
+  </div><!-- /wide -->
+</section>
+
+<!-- ═══════════════════════════════════════════
+     CLOSING CODA
+════════════════════════════════════════════ -->
+<section>
+  <div class="container">
+    <span class="eyebrow">Àtúnwá</span>
+    <h2>The Reincarnation Principle</h2>
+    <p>In Yoruba cosmology, <em>Àtúnwá</em> is not the Buddhist concept of the soul cycling blindly through random forms. It is purposeful. Specific. The essence of a great ancestor returns in a form suited to the challenges of its new era, armed with the same fundamental character — the same <em>orí</em> (spiritual head/destiny) — expressed through new skills and a new context.</p>
+    <p>Moremi Ajasoro was sent by the Esimirin River and by the accumulated prayer of an endangered people. She arrived armed with Ẹwà, Ọgbọ́n, and Àgbàrà — beauty, intelligence, and power — and she used them to dismantle the specific enemy of her age: the paralyzing fiction that the Ugbo were invincible.</p>
+    <p>The modern Yoruba women on these pages are sent by the same force, armed with the same toolkit, against the specific enemies of their age: the paralyzing fiction that African beauty does not belong in the front row of fashion weeks; that African intellect does not belong in the boardrooms of global corporations; that African creative power does not belong on the marquees of international entertainment.</p>
+    <p>They are dismantling those fictions one campaign, one runway, one chart-topper, one Netflix series, one bestselling memoir at a time.</p>
+
+    <blockquote class="pull">
+      "A rí Moremi. A rí ọmọ rẹ̀."<br>
+      <em style="font-size:0.75em;">We see Moremi. We see her children.</em>
+      <cite>Yoruba saying — spoken at the close of every Edi Festival</cite>
+    </blockquote>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     SOURCES
+════════════════════════════════════════════ -->
+<section class="sources-section">
+  <div class="container">
+    <span class="eyebrow">Bibliography</span>
+    <h2>Sources &amp; Referenced Materials</h2>
+    <ol class="sources-list">
+      <li><strong>Johnson, Rev. Samuel (1921).</strong> <em>The History of the Yorubas: From the Earliest Times to the Beginning of the British Protectorate.</em> London: Routledge. Foundational text detailing Ile-Ife history, the Oduduwa dynasty, King Oranmiyan, and the Ugbo conflict.</li>
+      <li><strong>Awe, Bolanle (1992).</strong> <em>Nigerian Women in Historical Perspective.</em> Sankore Publishers. Details the sociological impact of Moremi's sacrifice, female agency in Yoruba history, and the formulation of the Moremi Archetype.</li>
+      <li><strong>Ladipo, Duro (1966).</strong> <em>Moremi</em> (Opera/Play). A foundational artistic text analyzing the queen through Yoruba dramatic tradition and cultural memory.</li>
+      <li><strong>Olupona, Jacob K. (2011).</strong> <em>City of 201 Gods: Ilé-Ifè in Time, Space, and the Imagination.</em> University of California Press. Contextualizes the spiritual significance of Oluorogbo's sacrifice, the Esimirin River, and the Edi Festival.</li>
+      <li><strong>Frobenius, Leo (1910).</strong> Field expedition records, West Africa. Historical documentation of the misattribution of the Ife bronze heads — and the corrective scholarly record that followed.</li>
+      <li><strong>Olumide, Eunice (2018).</strong> <em>How to Get Into Fashion: A Complete Guide for Models, Creatives and Parents.</em> Autobiographical insight; primary source for career data and MBE advocacy record.</li>
+      <li><strong>Ooni Adeyeye Enitan Ogunwusi (2016).</strong> Unveiling address, Queen Moremi Ajasoro Statue of Liberty, Ooni's Palace, Ile-Ife, Osun State.</li>
+      <li><strong>Fashion Industry Primary Archives:</strong> Biographical data, runway records, and campaign milestones for Mayowa Nicholas, Eniola Abioro, Adeola Ariyo (Elizabeth Arden 2014), Betty Adewole (Tom Ford Beauty), and Tolula Adeyemi — sourced via Models.com, Vogue (Condé Nast), and Harper's Bazaar.</li>
+      <li><strong>TY Bello Photographic Archive (2016):</strong> Documentation and interviews detailing the discovery of Olajumoke Orisaguna.</li>
+      <li><strong>Wikimedia Commons:</strong> Licensed public-domain imagery — Moremi statue (Deji of Akure Palace), Zainab Balogun headshot, Olajumoke Orisaguna, Adeola Ariyo (NdaniTV).</li>
+    </ol>
+  </div>
+</section>
+
+<div class="adire-band"></div>
+
+<footer>
+  <div class="container">
+    <p class="yoruba-q">"Ẹ jẹ́ ká mọ ìtàn wa."</p>
+    <p>Let us know our history.</p>
+  </div>
+</footer>
+
+</body>
+</html>
