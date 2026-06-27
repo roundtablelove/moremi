@@ -1,0 +1,10 @@
+baseURL = "https://roundtablelove.github.io/moremi/"
+languageCode = "en-us"
+title = "Queen Moremi Ajasoro & The Yoruba Supahotties"
+enableRobotsTXT = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.goldmark.extensions]
+typographer = false
