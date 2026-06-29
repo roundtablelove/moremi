@@ -67,7 +67,7 @@ description: "How one woman's sacrifice birthed an archetype that still walks th
   </div>
   <div class="statue-item sub">
     <img
-      src="https://commons.wikimedia.org/wiki/Special:FilePath/Moremi_Ajasoro_statue.jpg"
+      src="https://upload.wikimedia.org/wikipedia/commons/1/13/Moremi_Ajasoro_statue.jpg"
       alt="Queen Moremi Ajasoro Statue of Liberty, Ile-Ife — the tallest statue in Nigeria"
       loading="lazy"
       style="filter:sepia(0.3) contrast(1.15) brightness(0.85);"
@@ -76,7 +76,7 @@ description: "How one woman's sacrifice birthed an archetype that still walks th
   </div>
   <div class="statue-item sub">
     <img
-      src="https://commons.wikimedia.org/wiki/Special:FilePath/Moremi_statue_Monument.jpg"
+      src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Moremi_statue_Monument.jpg"
       alt="Moremi Ajasoro statue monument"
       loading="lazy"
       style="object-fit:cover;width:100%;height:100%;display:block;"
