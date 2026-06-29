@@ -232,7 +232,7 @@ description: "How one woman's sacrifice birthed an archetype that still walks th
 The Scottish-Nigerian model whose Yoruba surname itself announces her purpose. Scouted at 15 in Glasgow, she breached the highest echelons of European fashion — then used her platform as a Trojan horse for social justice, bringing the **Windrush Generation deportation scandal** into London Fashion Week. She holds an **MA in Metaphysics from the University of Pennsylvania**. In 2017, Queen Elizabeth II awarded her an MBE for contributions to broadcasting, the arts, and charity. *Pure Moremi: she entered the establishment via beauty and burned it with knowledge.*
 {{< /model-card >}}
 
-{{< model-card num="02" name="Mayowa Nicholas" archetype="The Global Conqueror" title="The Unstoppable Force" ig="mayowanicholas" post="DCM-dnlxou-" flip="true" chips="Dolce & Gabbana|Saint Laurent|Calvin Klein|Models.com Top 50|Elite Model Look Nigeria 2014" >}}
+{{< model-card num="02" name="Mayowa Nicholas" archetype="The Global Conqueror" title="The Unstoppable Force" ig="mayowanicholas" post="DYpoZBumlc7DCM" flip="true" chips="Dolce & Gabbana|Saint Laurent|Calvin Klein|Models.com Top 50|Elite Model Look Nigeria 2014" >}}
 If Moremi conquered the Ugbo king, Mayowa Nicholas conquered the **titans of European luxury fashion**. Born in Lagos, she won Elite Model Look Nigeria in 2014 and became the **first Nigerian model ever to star in campaigns for Dolce & Gabbana, Saint Laurent, and Calvin Klein simultaneously**. Consistently ranked on Models.com's prestigious Top 50, Mayowa's pillowy lips, geometric cheekbones, and commanding runway walk forced the global luxury market to bow to the Yoruba standard of beauty — on its own terms, without compromise.
 {{< /model-card >}}
 
