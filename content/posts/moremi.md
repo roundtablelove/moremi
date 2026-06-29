@@ -59,7 +59,7 @@ description: "How one woman's sacrifice birthed an archetype that still walks th
 <div class="statue-grid">
   <div class="statue-item main">
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/90/Moremi_statue_at_the_Old_Palace_Of_The_Deji_Of_Akure.jpg"
+      src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Moremi_statue_at_the_Old_Palace_Of_The_Deji_Of_Akure.jpg"
       alt="Statue of Queen Moremi at the Old Palace of the Deji of Akure"
       loading="lazy"
     >
