@@ -56,33 +56,13 @@ description: "How one woman's sacrifice birthed an archetype that still walks th
 <h2>The Moremi Statue of Liberty — Ile-Ife</h2>
 <p class="statue-intro" style="color:var(--text-muted);max-width:640px;">In 2016, Ooni Adeyeye Enitan Ogunwusi commissioned a 42-foot bronze-finished monument within his palace grounds — the tallest statue in Nigeria. Moremi stands with a torch raised aloft, facing east toward her birthplace in Offa. Nigeria did not erect a statue of liberty until it gave that title to a queen.</p>
 
-<div class="statue-grid">
-  <div class="statue-item main">
-    <img
-      src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Moremi_statue_at_the_Old_Palace_Of_The_Deji_Of_Akure.jpg"
-      alt="Statue of Queen Moremi at the Old Palace of the Deji of Akure"
-      loading="lazy"
-    >
-    <div class="statue-cap">Moremi monument at the Old Palace of the Deji of Akure, Ondo State · Wikimedia Commons</div>
-  </div>
-  <div class="statue-item sub">
-    <img
-      src="https://upload.wikimedia.org/wikipedia/commons/1/13/Moremi_Ajasoro_statue.jpg"
-      alt="Queen Moremi Ajasoro Statue of Liberty, Ile-Ife — the tallest statue in Nigeria"
-      loading="lazy"
-      style="filter:sepia(0.3) contrast(1.15) brightness(0.85);"
-    >
-    <div class="statue-cap">Queen Moremi Ajasoro Statue of Liberty · 42 ft · Ooni's Palace, Ile-Ife · 2016 · Nigeria's tallest</div>
-  </div>
-  <div class="statue-item sub">
-    <img
-      src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Moremi_statue_Monument.jpg"
-      alt="Moremi Ajasoro statue monument"
-      loading="lazy"
-      style="object-fit:cover;width:100%;height:100%;display:block;"
-    >
-    <div class="statue-cap">Moremi monument · The torch faces east toward Offa, her birthplace</div>
-  </div>
+<div class="statue-item main">
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/1/13/Moremi_Ajasoro_statue.jpg"
+    alt="Queen Moremi Ajasoro Statue of Liberty, Ile-Ife — the tallest statue in Nigeria"
+    loading="lazy"
+  >
+  <div class="statue-cap">Queen Moremi Ajasoro Statue of Liberty · 42 ft · Ooni's Palace, Ile-Ife · 2016 · Nigeria's tallest · Wikimedia Commons</div>
 </div>
 </div>
 </section>
