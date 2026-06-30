@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="{{ "css/moremi.css" | relURL }}">
 </head>
 <body>
+<nav class="site-nav">
+  <a href="{{ "/" | relURL }}" class="site-nav-home">Moremi</a>
+  <a href="{{ "/posts/" | relURL }}" class="site-nav-blog">Posts</a>
+</nav>
 {{ block "main" . }}{{ end }}
 <script async src="https://www.instagram.com/embed.js"></script>
 </body>

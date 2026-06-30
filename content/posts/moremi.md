@@ -1,7 +1,10 @@
 ---
 title: "Queen Moremi Ajasoro & The Yoruba Supahotties"
 url: "/"
-description: "How one woman's sacrifice birthed an archetype that still walks the earth — from the sacred city of the Yoruba to the runways of Paris, Milan, and New York."
+layout: "raw"
+description: "How one woman's sacrifice birthed an archetype that still walks
+the earth — from the sacred city of the Yoruba to the runways of Paris, Milan,
+and New York."
 ---
 
 <div class="hero">
@@ -10,7 +13,9 @@ description: "How one woman's sacrifice birthed an archetype that still walks th
   <div class="hero-content">
     <span class="eyebrow">Ile-Ife · 12th Century to Now</span>
     <h1>Queen <em>Moremi</em><br>Ajasoro</h1>
-    <p class="hero-tagline">How one woman's sacrifice birthed an archetype that still walks the earth — from the sacred city of the Yoruba to the runways of Paris, Milan, and New York.</p>
+    <p class="hero-tagline">How one woman's sacrifice birthed an archetype that
+    still walks the earth — from the sacred city of the Yoruba to the runways of
+    Paris, Milan, and New York.</p>
   </div>
 </div>
 <div class="adire-band"></div>
@@ -18,146 +23,242 @@ description: "How one woman's sacrifice birthed an archetype that still walks th
 <section>
 <div class="container">
 <span class="eyebrow">Before Moremi</span>
-<h2>The World She Walked Into: Ile-Ife &amp; the Oduduwa Dynasty</h2>
 
-<p>To understand Moremi Ajasoro, you must first understand that she was not a woman of myth. She was a strategic operator inside one of the world's most sophisticated civilizations of her age — a kingdom whose artisans were casting bronze portrait sculptures of such breathtaking psychological realism that a European explorer, Leo Frobenius, encountered them in 1910 and refused to believe Africans had made them, attributing the works instead to the mythical city of Atlantis.</p>
+## The World She Walked Into: Ile-Ife & the Oduduwa Dynasty
 
-<p>He was catastrophically wrong. The works were Yoruba. They were Ife.</p>
+To understand Moremi Ajasoro, you must first understand that she was not a woman
+of myth. She was a strategic operator inside one of the world's most
+sophisticated civilizations of her age — a kingdom whose artisans were casting
+bronze portrait sculptures of such breathtaking psychological realism that a
+European explorer, Leo Frobenius, encountered them in 1910 and refused to
+believe Africans had made them, attributing the works instead to the mythical
+city of Atlantis.
 
-<h3>The Creation: Oduduwa and the First Earth</h3>
+He was catastrophically wrong. The works were Yoruba. They were Ife.
 
-<p>In the beginning, according to Yoruba cosmology, <strong>Olodumare</strong> — the Supreme Being, the source of all things — dispatched the divine emissaries called <em>orisha</em> to create the world. Chief among the creation-workers was <strong>Obatala</strong>, who descended from the heavens on a chain of iron, carrying sand in a snail shell and a five-toed chicken. But Obatala was waylaid by palm wine, and Olodumare sent another — <strong>Oduduwa</strong> — to complete the work.</p>
+### The Creation: Oduduwa and the First Earth
 
-<p>Oduduwa climbed down the golden chain, poured his sand onto the primordial waters, set the chicken upon it, and the bird scratched and spread the earth in all directions. Where his feet first touched solid ground, <em>Ile-Ife</em> was born: <em>"The place that spread wide."</em> The holiest soil in the Yoruba cosmos. The navel of the world.</p>
+In the beginning, according to Yoruba cosmology, **Olodumare** — the Supreme
+Being, the source of all things — dispatched the divine emissaries called
+*orisha* to create the world. Chief among the creation-workers was **Obatala**,
+who descended from the heavens on a chain of iron, carrying sand in a snail
+shell and a five-toed chicken. But Obatala was waylaid by palm wine, and
+Olodumare sent another — **Oduduwa** — to complete the work.
 
-<p>This is not purely theology. The archaeology agrees. Excavations at sites including <strong>Ita Yemoo</strong>, <strong>Obalara's Land</strong>, and <strong>Woye Asiri</strong> within Ile-Ife have yielded <strong>naturalistic bronze and terracotta portrait heads</strong> dated between 1000–1400 CE — the period when Moremi lived. The Ife bronzes demonstrate a mastery of lost-wax casting that would not appear in Europe for another three centuries. They depict human faces with lined, striated skin, parted lips, and eyes of crystalline shell — individuals, not idealized types. Rulers. Priests. Queens.</p>
+Oduduwa climbed down the golden chain, poured his sand onto the primordial
+waters, set the chicken upon it, and the bird scratched and spread the earth in
+all directions. Where his feet first touched solid ground, *Ile-Ife* was born:
+*"The place that spread wide."* The holiest soil in the Yoruba cosmos. The navel
+of the world.
 
-<p>These faces belonged to the world Moremi moved through daily.</p>
+This is not purely theology. The archaeology agrees. Excavations at sites
+including **Ita Yemoo**, **Obalara's Land**, and **Woye Asiri** within Ile-Ife
+have yielded **naturalistic bronze and terracotta portrait heads** dated between
+1000–1400 CE — the period when Moremi lived. The Ife bronzes demonstrate a
+mastery of lost-wax casting that would not appear in Europe for another three
+centuries. They depict human faces with lined, striated skin, parted lips, and
+eyes of crystalline shell — individuals, not idealized types. Rulers. Priests.
+Queens.
 
-<h3>The Oduduwa Dynasty: Ile-Ife as the Source of Crowns</h3>
+These faces belonged to the world Moremi moved through daily.
 
-<p>From Ile-Ife, Oduduwa fathered the original crowns of the Yoruba world. His children and grandchildren became the founding monarchs of <strong>Oyo, Ketu, Sabe, Popo, Owu, Bini</strong> (the Benin Kingdom), and many others. This lineage made the <strong>Ooni of Ife</strong> — the king of Ile-Ife — the paramount spiritual authority among all Yoruba kings, a position that remains uncontested to this day. No Yoruba king may wear the beaded crown without acknowledging Ife as the source of royal power.</p>
+### The Oduduwa Dynasty: Ile-Ife as the Source of Crowns
 
-<p>By the 12th century CE, Ile-Ife was a thriving, complex city-state: an international trade hub whose merchants carried cloth, bronze goods, and sacred objects across West Africa. Its government was structured around an elaborate system of <strong>chiefs, guild leaders, and Ifá diviners</strong> whose oracular function provided a form of civic governance rooted in divine will. This was not a village. This was a civilization worth dying for.</p>
+From Ile-Ife, Oduduwa fathered the original crowns of the Yoruba world. His
+children and grandchildren became the founding monarchs of **Oyo, Ketu, Sabe,
+Popo, Owu, Bini** (the Benin Kingdom), and many others. This lineage made the
+**Ooni of Ife** — the king of Ile-Ife — the paramount spiritual authority among
+all Yoruba kings, a position that remains uncontested to this day. No Yoruba
+king may wear the beaded crown without acknowledging Ife as the source of royal
+power.
 
-<h3>Moremi's Birthplace: Offa and the Warrior Tradition</h3>
+By the 12th century CE, Ile-Ife was a thriving, complex city-state: an
+international trade hub whose merchants carried cloth, bronze goods, and sacred
+objects across West Africa. Its government was structured around an elaborate
+system of **chiefs, guild leaders, and Ifá diviners** whose oracular function
+provided a form of civic governance rooted in divine will. This was not a
+village. This was a civilization worth dying for.
 
-<p>Moremi was not born in Ile-Ife. She was born a princess in <strong>Offa</strong>, a kingdom in present-day Kwara State, known throughout the Yoruba world for two things: extraordinary martial courage and singular feminine beauty. The women of Offa were said to embody <em>Ẹwà Àti Agbára</em> — beauty and strength — as a single, unified force rather than opposing qualities. This dual inheritance was precisely what made Moremi the perfect instrument for what was coming.</p>
+### Moremi's Birthplace: Offa and the Warrior Tradition
 
-<p>Her arrival in Ile-Ife — through a royal marriage alliance that joined the warrior tradition of Offa to the spiritual authority of Ife — was itself a political masterstroke, arranged to shore up the kingdom's defenses during a period of escalating crisis.</p>
+Moremi was not born in Ile-Ife. She was born a princess in **Offa**, a kingdom
+in present-day Kwara State, known throughout the Yoruba world for two things:
+extraordinary martial courage and singular feminine beauty. The women of Offa
+were said to embody *Ẹwà Àti Agbára* — beauty and strength — as a single,
+unified force rather than opposing qualities. This dual inheritance was
+precisely what made Moremi the perfect instrument for what was coming.
 
-<p>She arrived just in time.</p>
-</div>
-</section>
+Her arrival in Ile-Ife — through a royal marriage alliance that joined the
+warrior tradition of Offa to the spiritual authority of Ife — was itself a
+political masterstroke, arranged to shore up the kingdom's defenses during a
+period of escalating crisis.
 
-<section class="statue-section">
-<div class="wide">
-<span class="eyebrow">The Monuments</span>
-<h2>The Moremi Statue of Liberty — Ile-Ife</h2>
-<p class="statue-intro" style="color:var(--text-muted);max-width:640px;">In 2016, Ooni Adeyeye Enitan Ogunwusi commissioned a 42-foot bronze-finished monument within his palace grounds — the tallest statue in Nigeria. Moremi stands with a torch raised aloft, facing east toward her birthplace in Offa. Nigeria did not erect a statue of liberty until it gave that title to a queen.</p>
+She arrived just in time.
 
-<div class="statue-item main">
-  <img
-    src="https://upload.wikimedia.org/wikipedia/commons/1/13/Moremi_Ajasoro_statue.jpg"
-    alt="Queen Moremi Ajasoro Statue of Liberty, Ile-Ife — the tallest statue in Nigeria"
-    loading="lazy"
+</div> </section>
+
+<section class="statue-section"> <div class="wide"> <span class="eyebrow">The
+Monuments</span> <h2>The Moremi Statue of Liberty — Ile-Ife</h2> <p
+class="statue-intro" style="color:var(--text-muted);max-width:640px;">In 2016,
+Ooni Adeyeye Enitan Ogunwusi commissioned a 42-foot bronze-finished monument
+within his palace grounds — the tallest statue in Nigeria. Moremi stands with a
+torch raised aloft, facing east toward her birthplace in Offa. Nigeria did not
+erect a statue of liberty until it gave that title to a queen.</p>
+
+<div class="statue-item main"> <img
+src="https://upload.wikimedia.org/wikipedia/commons/1/13/Moremi_Ajasoro_statue.jpg"
+alt="Queen Moremi Ajasoro Statue of Liberty, Ile-Ife — the tallest statue in
+Nigeria" loading="lazy"
   >
-  <div class="statue-cap">Queen Moremi Ajasoro Statue of Liberty · 42 ft · Ooni's Palace, Ile-Ife · 2016 · Nigeria's tallest · Wikimedia Commons</div>
-</div>
-</div>
-</section>
+  <div class="statue-cap">Queen Moremi Ajasoro Statue of Liberty · 42 ft ·
+  Ooni's Palace, Ile-Ife · 2016 · Nigeria's tallest · Wikimedia Commons</div>
+  </div> </div> </section>
 
-<div class="stats-band">
-<div class="wide">
-<div class="stats-grid">
-  <div class="stat-item">
-    <span class="stat-number">12th</span>
-    <span class="stat-label">Century — Moremi's era</span>
-  </div>
-  <div class="stat-item">
-    <span class="stat-number">42</span>
-    <span class="stat-label">Feet tall — Nigeria's tallest statue</span>
-  </div>
-  <div class="stat-item">
-    <span class="stat-number">800+</span>
-    <span class="stat-label">Years of Edi Festival</span>
-  </div>
-  <div class="stat-item">
-    <span class="stat-number">1</span>
-    <span class="stat-label">Son sacrificed for a nation</span>
-  </div>
-</div>
-</div>
-</div>
+<div class="stats-band"> <div class="wide"> <div class="stats-grid"> <div
+class="stat-item"> <span class="stat-number">12th</span> <span
+class="stat-label">Century — Moremi's era</span> </div> <div class="stat-item">
+<span class="stat-number">42</span> <span class="stat-label">Feet tall —
+Nigeria's tallest statue</span> </div> <div class="stat-item"> <span
+class="stat-number">800+</span> <span class="stat-label">Years of Edi
+Festival</span> </div> <div class="stat-item"> <span
+class="stat-number">1</span> <span class="stat-label">Son sacrificed for a
+nation</span> </div> </div> </div> </div>
 
-<section>
-<div class="container">
-<span class="eyebrow">Part I</span>
-<h2>The Epic of Queen Moremi Ajasoro</h2>
+<section> <div class="container"> <span class="eyebrow">Part I</span>
 
-<h3>The Terror of the Ugbo — A Nation Paralyzed</h3>
+## The Epic of Queen Moremi Ajasoro
 
-<p>The threat did not arrive all at once. It accumulated over years — perhaps a full generation — of raids that grew bolder and more devastating with each cycle. The <em>Ugbo</em> (the "Forest People," ancestors of the present-day Ugbo-Ilaje of Ondo State) had developed a form of warfare so psychologically sophisticated it amounted to theater: a production designed not merely to defeat the Ife military but to annihilate its will to fight entirely.</p>
+### The Terror of the Ugbo — A Nation Paralyzed
 
-<p>They moved at dusk and dawn — the liminal hours, the time between worlds, when the living and the dead share roads. They emerged from the forest in complete silence before erupting in coordinated formations, their bodies covered entirely in <em>ekan</em> dried raffia palm leaves and carved spirit-masks. No skin showed. No human face was visible. They appeared not as an army but as an arrival — a judgment from the forest gods, descending on the holy city in wrath.</p>
+The threat did not arrive all at once. It accumulated over years — perhaps a
+full generation — of raids that grew bolder and more devastating with each
+cycle. The *Ugbo* (the "Forest People," ancestors of the present-day Ugbo-Ilaje
+of Ondo State) had developed a form of warfare so psychologically sophisticated
+it amounted to theater: a production designed not merely to defeat the Ife
+military but to annihilate its will to fight entirely.
 
-<p>The psychological effect was total. Ife warriors who had been trained to fight men found themselves paralyzed before what appeared to be spirits. The city's markets — the economic engine of a major West African civilization — were ransacked repeatedly. Young men and women were dragged away into slavery. The holy city, the birthplace of Yoruba civilization, knelt in humiliation before a force its bravest soldiers could not bring themselves to engage.</p>
+They moved at dusk and dawn — the liminal hours, the time between worlds, when
+the living and the dead share roads. They emerged from the forest in complete
+silence before erupting in coordinated formations, their bodies covered entirely
+in *ekan* dried raffia palm leaves and carved spirit-masks. No skin showed. No
+human face was visible. They appeared not as an army but as an arrival — a
+judgment from the forest gods, descending on the holy city in wrath.
 
-<p>It was in this climate of collective despair that Moremi made her decision.</p>
+The psychological effect was total. Ife warriors who had been trained to fight
+men found themselves paralyzed before what appeared to be spirits. The city's
+markets — the economic engine of a major West African civilization — were
+ransacked repeatedly. Young men and women were dragged away into slavery. The
+holy city, the birthplace of Yoruba civilization, knelt in humiliation before a
+force its bravest soldiers could not bring themselves to engage.
 
-<h3>The Covenant with Esimirin</h3>
+It was in this climate of collective despair that Moremi made her decision.
 
-<p>In Yoruba cosmology, major rivers are not geographical features — they are living entities, <em>orisha</em> with personalities, appetites, and power that can bend the course of human events. The <strong>Esimirin River</strong> was among the most formidable of these divine presences. Its worship predated the founding of Ile-Ife itself.</p>
+### The Covenant with Esimirin
 
-<p>Moremi's visit to Esimirin was not casual prayer. It was the initiation of a formal contractual relationship with a deity whose enforcement mechanisms operated across lifetimes. In Yoruba spiritual law, an <em>ìbòwọ̀</em> — a sacred vow made to an orisha — carried the weight of divine law. Breaking it did not merely bring misfortune to the individual. It could devastate an entire lineage across generations.</p>
+In Yoruba cosmology, major rivers are not geographical features — they are
+living entities, *orisha* with personalities, appetites, and power that can bend
+the course of human events. The **Esimirin River** was among the most formidable
+of these divine presences. Its worship predated the founding of Ile-Ife itself.
 
-<p>When Moremi pledged her "greatest, most prized possession" as payment for divine assistance, she was accepting an open-ended divine debt. She did not know what the river would ultimately demand. She accepted the terms anyway. This is the first act of Moremi's genius — not the espionage, not the escape, not the battle strategy — but this. The willingness to write a blank check to a god.</p>
+Moremi's visit to Esimirin was not casual prayer. It was the initiation of a
+formal contractual relationship with a deity whose enforcement mechanisms
+operated across lifetimes. In Yoruba spiritual law, an *ìbòwọ̀* — a sacred vow
+made to an orisha — carried the weight of divine law. Breaking it did not merely
+bring misfortune to the individual. It could devastate an entire lineage across
+generations.
 
-<h3>The Long Game: Deep Cover in the Ugbo Court</h3>
+When Moremi pledged her "greatest, most prized possession" as payment for divine
+assistance, she was accepting an open-ended divine debt. She did not know what
+the river would ultimately demand. She accepted the terms anyway. This is the
+first act of Moremi's genius — not the espionage, not the escape, not the battle
+strategy — but this. The willingness to write a blank check to a god.
 
-<p>Standard retellings compress Moremi's captivity into a brief episode. The oral historians and scholars suggest otherwise. The intelligence she gathered — the specific construction techniques of the raffia armor, the battle formations, the spiritual rituals performed before raids, the command structure of the Ugbo military — required <em>sustained, long-term immersion</em> in the enemy court.</p>
+### The Long Game: Deep Cover in the Ugbo Court
 
-<p>She was not a visitor. She was a queen. And to maintain that cover required a degree of psychological discipline and intellectual endurance that has few parallels in any tradition of espionage, ancient or modern. For months — perhaps years — Moremi:</p>
+Standard retellings compress Moremi's captivity into a brief episode. The oral
+historians and scholars suggest otherwise. The intelligence she gathered — the
+specific construction techniques of the raffia armor, the battle formations, the
+spiritual rituals performed before raids, the command structure of the Ugbo
+military — required *sustained, long-term immersion* in the enemy court.
 
-<p>— Learned the Ugbo language with sufficient fluency to pass as a willing consort<br>
-— Cultivated the absolute trust of the Ugbo king and his inner circle<br>
-— Attended military councils where the Ugbo planned future raids on her own people<br>
-— Observed the construction and maintenance of the raffia armor — and noted its fatal vulnerability to fire<br>
-— Gathered intelligence on the spiritual rituals that preceded battle, so Ile-Ife could develop counter-measures<br>
-— Maintained her cover with no backup, no extraction plan, no guarantee of return</p>
+She was not a visitor. She was a queen. And to maintain that cover required a
+degree of psychological discipline and intellectual endurance that has few
+parallels in any tradition of espionage, ancient or modern. For months — perhaps
+years — Moremi:
 
-<p>She was the most dangerous kind of operative: one who has nothing to lose and everything to gain, operating inside the house of the enemy with a smile on her face.</p>
+- Learned the Ugbo language with sufficient fluency to pass as a willing consort
+- Cultivated the absolute trust of the Ugbo king and his inner circle
+- Attended military councils where the Ugbo planned future raids on her own
+  people
+- Observed the construction and maintenance of the raffia armor — and noted its
+  fatal vulnerability to fire
+- Gathered intelligence on the spiritual rituals that preceded battle, so
+  Ile-Ife could develop counter-measures
+- Maintained her cover with no backup, no extraction plan, no guarantee of
+  return
+
+She was the most dangerous kind of operative: one who has nothing to lose and
+everything to gain, operating inside the house of the enemy with a smile on her
+face.
 
 <blockquote class="pull">
-"Moremi wept as the sky weeps in the season of storms — all at once, and with great force, and stopping as suddenly, for there was work yet to be done."
+"Moremi wept as the sky weeps in the season of storms — all at once, and with
+great force, and stopping as suddenly, for there was work yet to be done."
 <cite>Oriki Moremi — Yoruba Praise Poetry, oral tradition</cite>
 </blockquote>
 
-<h3>The Liberation of Ile-Ife</h3>
+### The Liberation of Ile-Ife
 
-<p>When Moremi finally escaped the Ugbo court and made the treacherous journey home, she brought back not just intelligence but a complete military doctrine. The Ife army, following her precise instructions, prepared vast quantities of <em>Oguso</em> — torches fashioned from palm kernel fiber — and waited.</p>
+When Moremi finally escaped the Ugbo court and made the treacherous journey
+home, she brought back not just intelligence but a complete military doctrine.
+The Ife army, following her precise instructions, prepared vast quantities of
+*Oguso* — torches fashioned from palm kernel fiber — and waited.
 
-<p>When the Ugbo next descended at dusk in their terror-formation, the Ife fighters emerged from concealment with lit torches. The result was immediate and catastrophic for the Ugbo: dried raffia is among the most flammable materials in the natural world. The "invincible spirits" became human torches. The army that had terrorized Ile-Ife for a generation scattered screaming into the bush.</p>
+When the Ugbo next descended at dusk in their terror-formation, the Ife fighters
+emerged from concealment with lit torches. The result was immediate and
+catastrophic for the Ugbo: dried raffia is among the most flammable materials in
+the natural world. The "invincible spirits" became human torches. The army that
+had terrorized Ile-Ife for a generation scattered screaming into the bush.
 
-<p>The psychological inversion was complete. The Ugbo never raided Ile-Ife again. What had been presented as supernatural judgment was revealed in one night's fire to be ordinary men with a clever costume. The myth collapsed. The terror collapsed with it.</p>
+The psychological inversion was complete. The Ugbo never raided Ile-Ife again.
+What had been presented as supernatural judgment was revealed in one night's
+fire to be ordinary men with a clever costume. The myth collapsed. The terror
+collapsed with it.
 
-<h3>The Sacrifice: Oluorogbo</h3>
+### The Sacrifice: Oluorogbo
 
-<p>She had known from the moment she made the vow that victory would cost her something. But the Esimirin River's priesthood arrived with a demand that emptied the triumph of all its joy.</p>
+She had known from the moment she made the vow that victory would cost her
+something. But the Esimirin River's priesthood arrived with a demand that
+emptied the triumph of all its joy.
 
-<p>The goddess rejected cattle. She rejected gold. She rejected land. She rejected every substitute Moremi offered in increasing desperation. The debt was specific. The goddess required <strong>Oluorogbo</strong> — Moremi's only son, her singular child, the extension of her blood into the future.</p>
+The goddess rejected cattle. She rejected gold. She rejected land. She rejected
+every substitute Moremi offered in increasing desperation. The debt was
+specific. The goddess required **Oluorogbo** — Moremi's only son, her singular
+child, the extension of her blood into the future.
 
-<p>Moremi paid.</p>
+Moremi paid.
 
-<p>The people of Ile-Ife, witnessing a sacrifice they could not comprehend — a mother giving her child to the river after saving the entire nation — made a collective covenant that stands to this day: <em>We are all your children now. Every person in Ile-Ife, every Yoruba person who draws breath, is Oluorogbo's replacement. We will be your children in perpetuity.</em></p>
+The people of Ile-Ife, witnessing a sacrifice they could not comprehend — a
+mother giving her child to the river after saving the entire nation — made a
+collective covenant that stands to this day: *We are all your children now.
+Every person in Ile-Ife, every Yoruba person who draws breath, is Oluorogbo's
+replacement. We will be your children in perpetuity.*
 
-<p>It is, perhaps, the most beautiful act of collective grief in African history.</p>
+It is, perhaps, the most beautiful act of collective grief in African history.
 
-<h3>The Edi Festival: 800 Years of Memory, Unbroken</h3>
+### The Edi Festival: 800 Years of Memory, Unbroken
 
-<p>The annual <strong>Edi Festival</strong> of Ile-Ife — celebrated every year in the lunar calendar — is among the oldest continuously observed commemorations in West Africa. Its central ritual involves the symbolic re-enactment of Moremi's capture and liberation, presided over by the Ooni of Ife, who stands as proxy for the nation's pledge to be Moremi's eternal children.</p>
+The annual **Edi Festival** of Ile-Ife — celebrated every year in the lunar
+calendar — is among the oldest continuously observed commemorations in West
+Africa. Its central ritual involves the symbolic re-enactment of Moremi's
+capture and liberation, presided over by the Ooni of Ife, who stands as proxy
+for the nation's pledge to be Moremi's eternal children.
 
-<p>During Edi, designated chanters recite the full <em>Oriki Moremi</em> — the praise poetry that encodes her history in metrical Yoruba verse — a living archive that has transmitted her story across 30+ generations without writing. The festival closes with communal offerings to the Esimirin River, renewing the debt of gratitude that the river is owed for enabling the victory.</p>
+During Edi, designated chanters recite the full *Oriki Moremi* — the praise
+poetry that encodes her history in metrical Yoruba verse — a living archive that
+has transmitted her story across 30+ generations without writing. The festival
+closes with communal offerings to the Esimirin River, renewing the debt of
+pgratitude that the river is owed for enabling the victory.
 
 <div class="timeline">
   <div class="tl-item">
@@ -186,17 +287,19 @@ description: "How one woman's sacrifice birthed an archetype that still walks th
     <p>Ooni Adeyeye Enitan Ogunwusi unveils the 42-foot Queen Moremi Ajasoro Statue of Liberty — Nigeria's tallest — in the Ooni's palace grounds. She holds a torch aloft, facing east toward Offa.</p>
   </div>
 </div>
+
 </div>
 </section>
 
 <section class="pillars-section">
 <div class="container">
 <span class="eyebrow">Part II</span>
-<h2>The Moremi Archetype: The Strategic Matriarch</h2>
 
-<p>In mythological analysis, what Moremi represents is specific and definable: the <strong>Savior-Spy</strong> — a distinct archetype that does not exist in Western canonical tradition in the same form. Unlike Achilles, who charges the enemy line with brute strength, or Odysseus, who deceives with cunning alone, Moremi weaponizes a third asset: <em>aesthetics</em>. Her beauty was not vanity. It was a key — the specific, irreplaceable instrument needed to open a particular lock.</p>
+## The Moremi Archetype: The Strategic Matriarch
 
-<p>The Moremi Archetype rests on three Yoruba pillars:</p>
+In mythological analysis, what Moremi represents is specific and definable: the **Savior-Spy** — a distinct archetype that does not exist in Western canonical tradition in the same form. Unlike Achilles, who charges the enemy line with brute strength, or Odysseus, who deceives with cunning alone, Moremi weaponizes a third asset: *aesthetics*. Her beauty was not vanity. It was a key — the specific, irreplaceable instrument needed to open a particular lock.
+
+The Moremi Archetype rests on three Yoruba pillars:
 
 <div class="pillars">
   <div class="pillar">
@@ -216,16 +319,19 @@ description: "How one woman's sacrifice birthed an archetype that still walks th
   </div>
 </div>
 
-<p>The archetype is explicitly <em>anti-damsel</em>. Moremi does not wait to be rescued. She engineers her own capture, endures captivity as a tool of victory, rescues an entire civilization, and then pays a debt that destroys her personally. At no point is she passive. At no point does she require a male savior. The Yoruba tradition produced this archetype in the 12th century, encoding it into their foundational national mythology: <em>the most dangerous person in the room is the most beautiful woman in it.</em></p>
+The archetype is explicitly *anti-damsel*. Moremi does not wait to be rescued. She engineers her own capture, endures captivity as a tool of victory, rescues an entire civilization, and then pays a debt that destroys her personally. At no point is she passive. At no point does she require a male savior. The Yoruba tradition produced this archetype in the 12th century, encoding it into their foundational national mythology: *the most dangerous person in the room is the most beautiful woman in it.*
 
-<p>The modern Yoruba supermodels — operating in the hyper-competitive, historically exclusionary Western fashion industry — are this archetype in contemporary form. They enter hostile domains via aesthetic allure. They dominate those spaces through strategy and discipline. And they use their platforms to advance the cause of their people. The battlefields have changed. The archetype has not.</p>
+The modern Yoruba supermodels — operating in the hyper-competitive, historically exclusionary Western fashion industry — are this archetype in contemporary form. They enter hostile domains via aesthetic allure. They dominate those spaces through strategy and discipline. And they use their platforms to advance the cause of their people. The battlefields have changed. The archetype has not.
+
 </div>
 </section>
 
 <section class="models-section">
 <div class="wide">
 <span class="eyebrow">Part III</span>
-<h2>The Modern Reincarnations — The Yoruba Supahotties</h2>
+
+## The Modern Reincarnations — The Yoruba Supahotties
+
 <p style="color:var(--text-muted);max-width:660px;margin-bottom:60px;">The battlefields are no longer the forests of Ugbo. They are the castings of Paris, the campaigns of Milan, the screens of Hollywood and Nollywood. These women carry Moremi's torch in stilettos.</p>
 
 {{< model-card num="01" name="Eunice Olumide MBE" archetype="The Intellectual Pioneer" title="\"God has come\" — Olumide" ig="eunice.olumide" post="CvqPXDlvUIp" chips="Prada|Vivienne Westwood|Jean Paul Gaultier|Alexander Wang|MBE · 2017" >}}
@@ -286,17 +392,23 @@ Discovered at the University of Lagos by a model scout, Adesola Adeyemi went fro
 <section>
 <div class="container">
 <span class="eyebrow">Àtúnwá</span>
-<h2>The Reincarnation Principle</h2>
-<p>In Yoruba cosmology, <em>Àtúnwá</em> is not the Buddhist concept of the soul cycling blindly through random forms. It is purposeful. Specific. The essence of a great ancestor returns in a form suited to the challenges of its new era, armed with the same fundamental character — the same <em>orí</em> (spiritual head/destiny) — expressed through new skills and a new context.</p>
-<p>Moremi Ajasoro was sent by the Esimirin River and by the accumulated prayer of an endangered people. She arrived armed with Ẹwà, Ọgbọ́n, and Àgbàrà — beauty, intelligence, and power — and she used them to dismantle the specific enemy of her age: the paralyzing fiction that the Ugbo were invincible.</p>
-<p>The modern Yoruba women on these pages are sent by the same force, armed with the same toolkit, against the specific enemies of their age: the paralyzing fiction that African beauty does not belong in the front row of fashion weeks; that African intellect does not belong in the boardrooms of global corporations; that African creative power does not belong on the marquees of international entertainment.</p>
-<p>They are dismantling those fictions one campaign, one runway, one chart-topper, one Netflix series, one bestselling memoir at a time.</p>
+
+## The Reincarnation Principle
+
+In Yoruba cosmology, *Àtúnwá* is not the Buddhist concept of the soul cycling blindly through random forms. It is purposeful. Specific. The essence of a great ancestor returns in a form suited to the challenges of its new era, armed with the same fundamental character — the same *orí* (spiritual head/destiny) — expressed through new skills and a new context.
+
+Moremi Ajasoro was sent by the Esimirin River and by the accumulated prayer of an endangered people. She arrived armed with Ẹwà, Ọgbọ́n, and Àgbàrà — beauty, intelligence, and power — and she used them to dismantle the specific enemy of her age: the paralyzing fiction that the Ugbo were invincible.
+
+The modern Yoruba women on these pages are sent by the same force, armed with the same toolkit, against the specific enemies of their age: the paralyzing fiction that African beauty does not belong in the front row of fashion weeks; that African intellect does not belong in the boardrooms of global corporations; that African creative power does not belong on the marquees of international entertainment.
+
+They are dismantling those fictions one campaign, one runway, one chart-topper, one Netflix series, one bestselling memoir at a time.
 
 <blockquote class="pull">
 "A rí Moremi. A rí ọmọ rẹ̀."<br>
 <em style="font-size:0.75em;">We see Moremi. We see her children.</em>
 <cite>Yoruba saying — spoken at the close of every Edi Festival</cite>
 </blockquote>
+
 </div>
 </section>
 

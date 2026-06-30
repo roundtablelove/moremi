@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="blog-index">
+  <div class="container">
+    <span class="eyebrow">Round Table Love</span>
+    <h2>Posts</h2>
+    <ul class="post-list">
+      {{ range .Pages.ByDate.Reverse }}
+      <li class="post-card">
+        <a href="{{ .Permalink }}" class="post-card-link">
+          <time class="post-date" datetime="{{ .Date.Format "2006-01-02" }}">
+            {{ .Date.Format "2 January 2006" }}
+          </time>
+          <h3 class="post-title">{{ .Title }}</h3>
+          {{ with .Description }}<p class="post-desc">{{ . }}</p>{{ end }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>
+{{ end }}

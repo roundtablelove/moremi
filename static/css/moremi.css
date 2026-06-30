@@ -535,6 +535,147 @@ footer p {
   margin: 0;
 }
 
+/* ── BLOG NAV ── */
+.site-nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background: linear-gradient(to bottom, rgba(8,6,4,0.85) 0%, transparent 100%);
+  pointer-events: none;
+}
+.site-nav a {
+  pointer-events: all;
+  font-family: 'Oswald', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--text-muted);
+  transition: color 0.2s;
+}
+.site-nav a:hover { color: var(--gold); }
+.site-nav-home { color: var(--gold) !important; }
+
+/* ── BLOG INDEX ── */
+.blog-index {
+  padding-top: 140px;
+  padding-bottom: 100px;
+  min-height: 100vh;
+}
+.post-list {
+  list-style: none;
+  margin-top: 52px;
+}
+.post-card {
+  border-top: 1px solid var(--medium);
+}
+.post-card:last-child {
+  border-bottom: 1px solid var(--medium);
+}
+.post-card-link {
+  display: block;
+  padding: 36px 0;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.post-card-link:hover .post-title { color: var(--gold-light); }
+.post-date {
+  display: block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 10px;
+}
+.post-card .post-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(22px, 3vw, 32px);
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+  margin: 0 0 10px;
+  transition: color 0.2s;
+}
+.post-desc {
+  font-size: 17px;
+  color: var(--text-muted);
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* ── BLOG POST ── */
+.post-article {
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+.post-header {
+  padding: 52px 0 48px;
+  border-bottom: 1px solid var(--medium);
+  margin-bottom: 56px;
+}
+.post-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(32px, 6vw, 72px);
+  font-weight: 900;
+  color: #fff;
+  line-height: 1.06;
+  margin: 14px 0 20px;
+}
+.post-lede {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(18px, 2.5vw, 24px);
+  font-style: italic;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin: 0;
+}
+.post-body {
+  max-width: 700px;
+}
+.post-body p { margin-bottom: 24px; }
+.post-body h2 {
+  font-size: clamp(24px, 4vw, 40px);
+  margin-top: 64px;
+  margin-bottom: 28px;
+}
+.post-body h3 { margin-top: 44px; }
+.post-body blockquote {
+  border-left: 3px solid var(--gold);
+  padding: 12px 28px;
+  margin: 36px 0;
+  background: var(--near-black);
+  color: var(--text-muted);
+  font-style: italic;
+}
+.post-body img {
+  max-width: 100%;
+  display: block;
+  margin: 36px 0;
+}
+.post-footer {
+  margin-top: 80px;
+  padding-top: 32px;
+  border-top: 1px solid var(--medium);
+}
+.post-back {
+  font-family: 'Oswald', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.post-back:hover { color: var(--gold); }
+
 /* ── RESPONSIVE ── */
 @media (max-width: 900px) {
   .statue-grid { grid-template-columns: 1fr 1fr; }
